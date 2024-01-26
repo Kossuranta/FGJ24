@@ -2,9 +2,17 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    private static readonly GameManager s_instance = new();
+    public static GameManager Instance { get; private set; }
 
-    public static GameManager Instance => s_instance;
+    private void Awake()
+    {
+        if (Instance != null)
+        {
+            Debug.LogError("ERROR! Multiple GameManagers are not allowed!");
+            DestroyImmediate(this);
+            return;
+        }
 
-    public int m_test = 1;
+        Instance = this;
+    }
 }
