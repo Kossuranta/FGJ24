@@ -6,6 +6,9 @@ public class GameManager : MonoBehaviour
 
     public DeskManager m_deskManager;
 
+    public const int SCREEN_HEIGHT = 1080;
+    public const int SCREEN_WIDTH = 1920;
+
     private void Awake()
     {
         if (Instance != null)
