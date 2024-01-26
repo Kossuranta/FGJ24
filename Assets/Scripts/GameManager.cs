@@ -4,6 +4,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
+    public DeskManager m_deskManager;
+
     private void Awake()
     {
         if (Instance != null)
@@ -14,5 +16,10 @@ public class GameManager : MonoBehaviour
         }
 
         Instance = this;
+    }
+
+    private void Start()
+    {
+        m_deskManager.Initialize();
     }
 }
