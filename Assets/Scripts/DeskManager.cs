@@ -25,15 +25,12 @@ public class DeskManager : MonoBehaviour
         StartCoroutine(nameof(BlendIngredients));
     }
 
-    private IEnumerator BlendIngredients()
+    private void BlendIngredients()
     {
-        Vector2[] startPositions = new Vector2[m_ingredientSlots.Length];
-        while (true)
+        foreach (Image image in m_ingredientSlots)
         {
-            
-            yield return 0;
+            StartCoroutine(nameof(FadeOut), image);
         }
-        ResetIngredients();
     }
 
     private void ResetIngredients()
@@ -45,7 +42,6 @@ public class DeskManager : MonoBehaviour
             color.a = 1f;
             image.color = color;
             image.rectTransform.localScale = Vector3.one;
-            image.rectTransform.localRotation = Quaternion.identity;
         }
     }
 
@@ -85,10 +81,15 @@ public class DeskManager : MonoBehaviour
     private IEnumerator FadeOut(Image _image)
     {
         float timer = 0;
+        Color color = _image.color;
         while (timer < 1)
         {
             timer += Time.deltaTime / m_fadeOutDuration;
+            color.a = 1f - timer;
+            _image.color = color;
             yield return 0;
         }
+        
+        ResetIngredients();
     }
 }
