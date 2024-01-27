@@ -10,15 +10,17 @@ public class CustomerManager : MonoBehaviour
     public Vector2 m_outOfScreenPos;
     public Vector2 m_customerPosition;
     public PositionPair[] m_bossPositions;
-    public float m_speed;
+    public Transform m_day2BossParent;
 
     [NonSerialized]
     public Customer m_boss;
-    private int m_bossIndex;
+    [NonSerialized]
+    public int m_bossIndex;
     private int m_bossPosIndex;
     private Customer m_customer;
     private Vector2 m_velocity;
-    private int m_customerIndex;
+    [NonSerialized]
+    public int m_customerIndex;
     
     public void Initialize()
     {
@@ -29,6 +31,7 @@ public class CustomerManager : MonoBehaviour
 
     public void CustomerLeave()
     {
+        GameManager.Instance.m_dialogBox.gameObject.SetActive(false);
         GameManager.Instance.StopCustomerAudio();
         StartCoroutine(CustomerExit());
     }
@@ -38,7 +41,6 @@ public class CustomerManager : MonoBehaviour
         m_customer = Instantiate(m_customers[m_customerIndex], transform);
         m_customer.Initialize();
         m_customerIndex++;
-
         StartCoroutine(CustomerEnter());
     }
 
@@ -53,7 +55,10 @@ public class CustomerManager : MonoBehaviour
         if (m_boss != null)
             Destroy(m_boss.gameObject);
         
-        m_boss = Instantiate(m_bosses[m_bossIndex], transform);
+        if (m_bossIndex == 1)
+            m_boss = Instantiate(m_bosses[m_bossIndex], m_day2BossParent);
+        else
+            m_boss = Instantiate(m_bosses[m_bossIndex], transform);
         m_boss.Initialize();
         m_bossIndex++;
         StartCoroutine(BossEnter());
@@ -69,7 +74,7 @@ public class CustomerManager : MonoBehaviour
         float time = 0;
         while (time < 1)
         {
-            time += Time.deltaTime * m_speed;
+            time += Time.deltaTime / m_customer.m_moveDuration;
             m_customer.m_rect.anchoredPosition = Vector2.Lerp(m_outOfScreenPos, m_customerPosition, time);
             yield return 0;
         }
@@ -84,7 +89,7 @@ public class CustomerManager : MonoBehaviour
         float time = 0;
         while (time < 1)
         {
-            time += Time.deltaTime * m_speed;
+            time += Time.deltaTime / m_customer.m_moveDuration;
             m_customer.m_rect.anchoredPosition = Vector2.Lerp(m_customerPosition, m_outOfScreenPos, time);
             yield return 0;
         }
@@ -96,9 +101,10 @@ public class CustomerManager : MonoBehaviour
     {
         float time = 0;
         PositionPair pos = m_bossPositions[m_bossPosIndex];
+        m_boss.m_rect.localRotation = Quaternion.Euler(0, 0, pos.m_rotation);
         while (time < 1)
         {
-            time += Time.deltaTime * m_speed;
+            time += Time.deltaTime / m_boss.m_moveDuration;
             m_boss.m_rect.anchoredPosition = Vector2.Lerp(pos.m_outOfScreenPos, pos.m_targetPos, time);
             yield return 0;
         }
@@ -113,7 +119,7 @@ public class CustomerManager : MonoBehaviour
         m_bossPosIndex++;
         while (time < 1)
         {
-            time += Time.deltaTime * m_speed;
+            time += Time.deltaTime / m_boss.m_moveDuration;
             m_boss.m_rect.anchoredPosition = Vector2.Lerp(pos.m_targetPos, pos.m_outOfScreenPos, time);
             yield return 0;
         }

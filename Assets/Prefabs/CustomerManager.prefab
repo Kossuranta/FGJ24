@@ -49,6 +49,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_customers:
+  - {fileID: -3085467415739297304, guid: fab5cad8d0b78c1428affd403cb8b332, type: 3}
   - {fileID: -3085467415739297304, guid: c1479652c565fb44caba2badc0f4600e, type: 3}
   - {fileID: -3085467415739297304, guid: 42c2525efa11782419dedf964f505008, type: 3}
   - {fileID: -3085467415739297304, guid: 439952047e25047359703bdd6e13d61d, type: 3}
@@ -65,8 +66,16 @@ MonoBehaviour:
   - {fileID: -3085467415739297304, guid: eb5df152f34503243bd1c13b533fa09e, type: 3}
   - {fileID: -3085467415739297304, guid: 1b9182425ab4040269a6469bf7500fdd, type: 3}
   - {fileID: -3085467415739297304, guid: 20225d77584944ad7b3f6c0476e601c2, type: 3}
-  m_bosses: []
+  m_bosses:
+  - {fileID: -3085467415739297304, guid: abe2a276ddb3f7a44ab49a119d2f38ab, type: 3}
+  - {fileID: -3085467415739297304, guid: bf052391d2922964c86d807206be31ff, type: 3}
   m_outOfScreenPos: {x: 2165, y: 650}
   m_customerPosition: {x: 826, y: 650}
-  m_bossPositions: []
-  m_speed: 1
+  m_bossPositions:
+  - m_outOfScreenPos: {x: -208, y: 676}
+    m_targetPos: {x: 285, y: 676}
+    m_rotation: 0
+  - m_outOfScreenPos: {x: 1246, y: -130}
+    m_targetPos: {x: 796, y: -130}
+    m_rotation: 90
+  m_day2BossParent: {fileID: 0}
