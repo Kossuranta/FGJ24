@@ -25,3 +25,60 @@ MonoBehaviour:
   - m_name: Butter
     m_type: 8
     m_sprite: {fileID: 3708972759905113012, guid: 9be0d66606c304fcbaae0402a316ff56, type: 3}
+  - m_name: Chocolate
+    m_type: 9
+    m_sprite: {fileID: 7261783368869758314, guid: cc378be9cb8b44e22856a1bca7d8d955, type: 3}
+  - m_name: Water
+    m_type: 10
+    m_sprite: {fileID: -4292645906647738624, guid: cdad3f2bad34640919a423d162ebd1f6, type: 3}
+  - m_name: Salt
+    m_type: 5
+    m_sprite: {fileID: 1170695074276450135, guid: 26ec4ec0dd21e41da8c44d7c1ba58fa1, type: 3}
+  - m_name: BakingPowder
+    m_type: 6
+    m_sprite: {fileID: -4234807649960973554, guid: 4790b18a1e23744dfb6bcee84674461b, type: 3}
+  - m_name: Yeast
+    m_type: 7
+    m_sprite: {fileID: 3342810442887027659, guid: 08098ebe84c6747e5bf3fd45ea4a450a, type: 3}
+  - m_name: Sausage
+    m_type: 100
+    m_sprite: {fileID: -7381501216390063363, guid: 9a2baa934a7174faeaad964b669923ff, type: 3}
+  - m_name: Steak
+    m_type: 101
+    m_sprite: {fileID: -4362496575731948918, guid: 99ec62285f49f4ef3adf7dddb6ee8f56, type: 3}
+  - m_name: Soymilk
+    m_type: 102
+    m_sprite: {fileID: -8371886029526563888, guid: f2592ec2c1d6344b4bc957a4af3ca6f6, type: 3}
+  - m_name: WhitefishTwoKilograms
+    m_type: 103
+    m_sprite: {fileID: 621715970326577653, guid: 7e8512ba27b4d473e865f2921388b87d, type: 3}
+  - m_name: Sawdust
+    m_type: 200
+    m_sprite: {fileID: -4826417865555123735, guid: d0577117b8df84a6f9e11d0ead84fef0, type: 3}
+  - m_name: MotorOil
+    m_type: 201
+    m_sprite: {fileID: -2970132247034723449, guid: 9b96e928a6532451a8a8da1681fa7bce, type: 3}
+  - m_name: HandCream
+    m_type: 202
+    m_sprite: {fileID: -8492857284895690931, guid: acf21bde842e54e5cb413d81361cc859, type: 3}
+  - m_name: NobleSpirit
+    m_type: 301
+    m_sprite: {fileID: 10830045871791957, guid: 84eccecbb632848b797f4252dec90503, type: 3}
+  - m_name: PainKillers
+    m_type: 302
+    m_sprite: {fileID: 5370617186064083550, guid: 53ce53b95899242cf9e499f9fb408abc, type: 3}
+  - m_name: MagicMushroom
+    m_type: 303
+    m_sprite: {fileID: -3109915499703300317, guid: c2c341e6fbe1a4a0f8ad699fb30df7a0, type: 3}
+  - m_name: Soul
+    m_type: 401
+    m_sprite: {fileID: 2656595835160527804, guid: faff2a850408d416db250e89cd8d4e5c, type: 3}
+  - m_name: VirginBlood
+    m_type: 402
+    m_sprite: {fileID: -3569756055293657213, guid: ff1f8be11dda74d939690892ef1b3d1f, type: 3}
+  - m_name: Eggs
+    m_type: 3
+    m_sprite: {fileID: -6636555868646126082, guid: 65698558e464e48009f1bbe2cb2c2c66, type: 3}
+  - m_name: MysteryMeat
+    m_type: 403
+    m_sprite: {fileID: -4362496575731948918, guid: 99ec62285f49f4ef3adf7dddb6ee8f56, type: 3}

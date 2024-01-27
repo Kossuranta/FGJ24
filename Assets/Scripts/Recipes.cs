@@ -16,11 +16,27 @@ public class Recipes : ScriptableObject
 
         return m_recipes[0];
     }
+    
+    private void OnValidate()
+    {
+        foreach (RecipeData recipe in m_recipes)
+        {
+            recipe.UpdateName();
+        }
+    }
 }
 
 [Serializable]
 public class RecipeData
 {
+    [HideInInspector]
+    public string m_name;
     public RecipeType m_type;
+    public Sprite m_sprite;
     public IngredientType[] m_ingredients;
+    
+    public void UpdateName()
+    {
+        m_name = m_type.ToString();
+    }
 }

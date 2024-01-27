@@ -52,9 +52,22 @@ MonoBehaviour:
   m_image: {fileID: 4851656962272421990}
   m_rect: {fileID: 7597087578419226603}
   m_order: 1
-  m_dialog: []
-  m_happy: {fileID: 3096851731620070214, guid: 0af904e76dcb7e647a275727b83b492d, type: 3}
-  m_sad: {fileID: -1382217390010911101, guid: 889897ac2f468dc4f8b750af38530dd0, type: 3}
+  m_happy: {fileID: 21300000, guid: 0af904e76dcb7e647a275727b83b492d, type: 3}
+  m_sad: {fileID: 21300000, guid: 889897ac2f468dc4f8b750af38530dd0, type: 3}
+  m_dialog:
+  - Oh, you are new, aren't you, my dear? How lovely! It's always nice to meet new
+    people.
+  - Back in my day, we had to walk five miles uphill to the bakery, and we still
+    greeted everyone on the way!
+  - That was over two people! Of course, we couldn't buy anything, but we liked the
+    smell so much. There really isn't anything like a freshly baked cake, is there,
+    sweetie?
+  - Oh, I just remembered it's my birthday! Happy birthday me! Could I have your
+    most excellent birthday cake?
+  m_responseHappy: This tastes wonderful! Oh, I feel like a child again, thank you!
+  m_responseSad: Oh, this tastes a bit different than I remembered... but that's
+    all right dear, I'm sure you tried your best.
+  m_showNoButton: 0
 --- !u!1 &1466773220233465482
 GameObject:
   m_ObjectHideFlags: 0

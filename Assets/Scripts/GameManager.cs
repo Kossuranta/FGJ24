@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public MainMenu m_mainMenu;
     public DeskManager m_deskManager;
     public CustomerManager m_customerManager;
+    public DialogBox m_dialogBox;
 
     public Recipes m_recipes;
     public IngredientSprites m_ingredientSprites;
@@ -17,8 +18,12 @@ public class GameManager : MonoBehaviour
     public readonly List<IngredientType> m_selectedIngredients = new(4);
 
     [NonSerialized]
-    public Customer m_customer;
+    public Customer m_currentCustomer;
+    
+    [NonSerialized]
+    public RecipeType m_currentOrder;
 
+    [NonSerialized]
     public int m_day = 0;
 
     public const int SCREEN_HEIGHT = 1080;
@@ -41,6 +46,8 @@ public class GameManager : MonoBehaviour
         m_mainMenu.gameObject.SetActive(true);
         m_deskManager.Initialize();
         m_customerManager.Initialize();
+        
+        m_dialogBox.gameObject.SetActive(false);
     }
 
     public void StartGame()
@@ -51,8 +58,43 @@ public class GameManager : MonoBehaviour
 
     public void StartDay(int _day)
     {
+        m_currentOrder = RecipeType.None;
         m_deskManager.StartDay(_day);
         m_customerManager.NextCustomer();
+    }
+
+    public void OnButtonYes()
+    {
+        if (m_currentOrder == RecipeType.None)
+        {
+            MakeOrder();
+        }
+        else
+        {
+            //Order resource
+        }
+    }
+
+    public void OnButtonNo()
+    {
+        m_dialogBox.m_nextDialog.gameObject.SetActive(false);
+        m_customerManager.ShowBoss();
+    }
+
+    public void ShowBossDialog(Customer _boss)
+    {
+        m_dialogBox.ShowOverrideDialog(_boss.m_dialog);
+    }
+
+    public void CustomerReady(Customer _customer)
+    {
+        m_currentCustomer = _customer;
+        m_dialogBox.ShowDialog(_customer.m_dialog);
+    }
+
+    public void MakeOrder()
+    {
+        m_currentOrder = m_currentCustomer.m_order;
     }
 
     public void AddIngredient(IngredientType _ingredient)
@@ -60,19 +102,21 @@ public class GameManager : MonoBehaviour
         if (m_selectedIngredients.Count >= 4)
             return;
         
-        if (m_customer == null)
+        if (m_currentOrder == RecipeType.None)
             return;
         
         m_deskManager.SetIngredient(m_selectedIngredients.Count, _ingredient);
         m_selectedIngredients.Add(_ingredient);
         Debug.Log($"Added ingredient {_ingredient}");
         if (m_selectedIngredients.Count == 4)
+        {
             Invoke(nameof(BakeBun), 1);
+        }
     }
 
     private void BakeBun()
     {
-        RecipeData recipe = m_recipes.GetRecipe(m_customer.m_order);
+        RecipeData recipe = m_recipes.GetRecipe(m_currentOrder);
         int correctIngredients = 0;
         foreach (IngredientType ingredient in recipe.m_ingredients)
         {
@@ -81,6 +125,7 @@ public class GameManager : MonoBehaviour
         }
         m_selectedIngredients.Clear();
         m_deskManager.ClearIngredients();
+        m_currentOrder = RecipeType.None;
         
         Debug.Log($"Bake completed, success: {correctIngredients}/4");
         if (correctIngredients == 4)
@@ -101,13 +146,13 @@ public class GameManager : MonoBehaviour
     
     private void BakeSuccess()
     {
-        m_customer.MakeHappy();
-        CustomerServed();
+        m_currentCustomer.MakeHappy();
+        m_dialogBox.CustomerResponse(m_currentCustomer.m_responseHappy);
     }
 
     private void BakeFail()
     {
-        m_customer.MakeSad();
-        CustomerServed();
+        m_currentCustomer.MakeSad();
+        m_dialogBox.CustomerResponse(m_currentCustomer.m_responseSad);
     }
 }

@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: Recipes
   m_EditorClassIdentifier: 
   m_recipes:
-  - m_type: 1
+  - m_name: BirthdayCakeDay1
+    m_type: 1
+    m_sprite: {fileID: 2656595835160527804, guid: faff2a850408d416db250e89cd8d4e5c, type: 3}
     m_ingredients: 01000000020000000400000008000000
