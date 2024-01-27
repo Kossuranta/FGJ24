@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7597087578419226603}
   - component: {fileID: -3085467415739297304}
   m_Layer: 5
-  m_Name: CustomerBossDay03
+  m_Name: CustomerBossDay04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52,12 +52,10 @@ MonoBehaviour:
   m_image: {fileID: 4851656962272421990}
   m_rect: {fileID: 7597087578419226603}
   m_order: 0
-  m_audio: {fileID: 0}
   m_happy: {fileID: 21300000, guid: 2ace4b4703572ef4f892c9765587280b, type: 3}
   m_sad: {fileID: 21300000, guid: 2ace4b4703572ef4f892c9765587280b, type: 3}
   m_dialog:
-  - Catch! why doest thou think so little of me. Of course I have people who can
-    deliver anything our clients can think of. Call them. Just dont order too much!
+  - ...YOU DID FUCKING WHAT??
   m_responseHappy: 
   m_responseSad: 
   m_showNoButton: 0
