@@ -14,7 +14,8 @@ public class CustomerManager : MonoBehaviour
 
     [NonSerialized]
     public Customer m_boss;
-    private int m_bossIndex;
+    [NonSerialized]
+    public int m_bossIndex;
     private int m_bossPosIndex;
     private Customer m_customer;
     private Vector2 m_velocity;

@@ -76,8 +76,6 @@ public class DialogBox : MonoBehaviour
                 m_buttonNo.gameObject.SetActive(false);
             else
                 m_buttonNo.gameObject.SetActive(m_dialogIndex == m_dialog.Length);
-            Debug.Log(m_dialogIndex);
-            Debug.Log(m_dialog.Length);
             m_nextDialog.gameObject.SetActive(m_dialogIndex != m_dialog.Length);
         }
         else

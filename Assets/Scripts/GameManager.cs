@@ -81,7 +81,8 @@ public class GameManager : MonoBehaviour
         
         if (m_currentOrder == RecipeType.None)
         {
-            if (m_currentCustomer.m_order == RecipeType.HotDog)
+            if (m_currentCustomer.m_order == RecipeType.HotDog &&
+                m_customerManager.m_bossIndex == 1)
                 ShowNextBoss();
             else
                 MakeOrder();
