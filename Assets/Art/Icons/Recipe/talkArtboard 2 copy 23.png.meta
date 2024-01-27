@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      talkArtboard 2 copy 23_0: -7753929068036138348
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
