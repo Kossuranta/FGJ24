@@ -13,8 +13,6 @@ public class CustomerManager : MonoBehaviour
     private Customer m_customer;
     private Vector2 m_velocity;
     private int m_index;
-
-    public Action m_customerLeft;
     
     public void Initialize()
     {
@@ -62,6 +60,6 @@ public class CustomerManager : MonoBehaviour
             yield return 0;
         }
         
-        m_customerLeft?.Invoke();
+        GameManager.Instance.CustomerLeft();
     }
 }

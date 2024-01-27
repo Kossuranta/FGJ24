@@ -14,10 +14,10 @@ public class RecipeManager : MonoBehaviour
 
     public void Initialize()
     {
-        GenerateRecipes();
+        
     }
 
-    private void GenerateRecipes()
+    public void GenerateRecipes(int _day)
     {
         for (int i = 0; i < 10; i++)
         {
