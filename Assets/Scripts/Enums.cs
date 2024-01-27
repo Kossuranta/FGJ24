@@ -39,5 +39,21 @@ public enum IngredientType
 public enum RecipeType
 {
     None = 0,
-    Pun = 1,
+    BirthdayCakeDay1 = 1,
+    BunSoyMilk = 2,
+    KarelianPie = 3,
+    BirthdayCakeDay2 = 4,
+    HotDog = 5,
+    BirthdayCakeDay3 = 6,
+    Underwear = 7,
+    SawDustBun = 8,
+    BirthdayCakeDay4 = 9,
+    SadMeal = 10,
+    BirthdayCakeDay5 = 11,
+    DevilBun = 12,
+    ColdDog = 13,
+
+
+
+
 }
