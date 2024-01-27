@@ -51,16 +51,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_image: {fileID: 4851656962272421990}
   m_rect: {fileID: 7597087578419226603}
-  m_order: 0
+  m_order: 7
+  m_audio: {fileID: 0}
   m_happy: {fileID: 21300000, guid: 0af904e76dcb7e647a275727b83b492d, type: 3}
   m_sad: {fileID: 21300000, guid: 889897ac2f468dc4f8b750af38530dd0, type: 3}
   m_dialog:
-  - 
-  - 
-  - 
-  - 
-  m_responseHappy: 
-  m_responseSad: 
+  - Hey sweet tits show me some of that nice ass will ya! Bwahahhaahh. Kidding kidding,
+    can't you take a joke?
+  - Bwaahahhaa Don't be such a stuck up. You'd be prettier if you smiled. Bah you're
+    no fun. Well since I can't get between YOUR buns I'll have freshly baked bun
+    with your underwear baked into it!
+  m_responseHappy: Sniiiiiiiiiiiiiiif Ahhhhhhh that's the stuff
+  m_responseSad: You suck! And not in the good kind of way!
   m_showNoButton: 0
 --- !u!1 &1466773220233465482
 GameObject:
