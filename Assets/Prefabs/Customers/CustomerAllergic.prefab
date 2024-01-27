@@ -65,7 +65,8 @@ MonoBehaviour:
   m_responseHappy: Mmmmmm juuuuuuust perfect! And remember! NO MILK!
   m_responseSad: Ohdear, ohdear, ohdear, there was milk in it wasn't there! I need
     to get out of the city before I blow!
-  m_showNoButton: 1
+  m_showNoButton: 0
+  m_moveDuration: 1
 --- !u!1 &1466773220233465482
 GameObject:
   m_ObjectHideFlags: 0

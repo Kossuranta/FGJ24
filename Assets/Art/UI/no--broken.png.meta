@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 8d4389163eb76f140b723a3d6263dddf
+guid: d7c496c98e41cb94797779b5d8cf01e8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2162483857483435917
-    second: restartgame-hover 1_0
+      213: -7956526065764118768
+    second: no--broken_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: restartgame-hover 1_0
+      name: no--broken_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 293
-        height: 127
+        width: 190
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 370fe2293605df1e0800000000000000
-      internalID: -2162483857483435917
+      spriteID: 01f4efbd2bdb49190800000000000000
+      internalID: -7956526065764118768
       vertices: []
       indices: 
       edges: []
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      restartgame-hover 1_0: -2162483857483435917
+      no--broken_0: -7956526065764118768
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
