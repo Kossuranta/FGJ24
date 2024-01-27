@@ -7,6 +7,7 @@ public class Customer : MonoBehaviour
     public RectTransform m_rect;
     
     public RecipeType m_order;
+    public AudioClip m_voice;
     public Sprite m_happy;
     public Sprite m_sad;
 
