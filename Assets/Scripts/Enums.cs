@@ -4,7 +4,16 @@ public enum IngredientType
         
     //Basic 1-99
     Wheat = 1,
-        
+    Milk = 2,
+    Eggs = 3,
+    Sugar = 4,
+    Salt = 5,
+    BakingPowder = 6,
+    Yeast = 7,
+    Butter = 8,
+    Chocolate = 9,
+    Water = 10,
+
     //Wholesale 100-199
     Sausage = 100,
     Steak = 101,
