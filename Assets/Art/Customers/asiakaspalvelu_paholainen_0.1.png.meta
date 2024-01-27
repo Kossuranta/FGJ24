@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 889897ac2f468dc4f8b750af38530dd0
+guid: 9c1011b676150c04aa61d59442d2de16
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1382217390010911101
-    second: asiakaspalvelu_mummo_angry_0.1_0
+      213: -7176588844846742128
+    second: asiakaspalvelu_paholainen_0.1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: asiakaspalvelu_mummo_angry_0.1_0
+      name: asiakaspalvelu_paholainen_0.1_0
       rect:
         serializedVersion: 2
-        x: 262
+        x: 467
         y: 0
-        width: 1448
-        height: 1789
+        width: 1426
+        height: 2003
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 386380a6b9061dce0800000000000000
-      internalID: -1382217390010911101
+      spriteID: 09501e30872a76c90800000000000000
+      internalID: -7176588844846742128
       vertices: []
       indices: 
       edges: []
@@ -131,7 +131,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      asiakaspalvelu_mummo_angry_0.1_0: -1382217390010911101
+      asiakaspalvelu_paholainen_0.1_0: -7176588844846742128
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

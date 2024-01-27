@@ -11,6 +11,14 @@ public class Customer : MonoBehaviour
     public Sprite m_happy;
     public Sprite m_sad;
 
+    public string m_responseHappy;
+    public string m_responseSad;
+
+    public void Initialize()
+    {
+        MakeHappy();
+    }
+
     public void MakeHappy()
     {
         m_image.sprite = m_happy;

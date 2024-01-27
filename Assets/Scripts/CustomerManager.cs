@@ -22,7 +22,7 @@ public class CustomerManager : MonoBehaviour
 
     public void CustomerLeave()
     {
-        if (GameManager.Instance.m_customer == null)
+        if (GameManager.Instance.m_currentCustomer == null)
             return;
         
         StartCoroutine(CustomerExit());
@@ -31,6 +31,7 @@ public class CustomerManager : MonoBehaviour
     public void NextCustomer()
     {
         m_customer = Instantiate(m_customers[m_index], transform);
+        m_customer.Initialize();
         m_index++;
 
         StartCoroutine(CustomerEnter());
@@ -46,12 +47,12 @@ public class CustomerManager : MonoBehaviour
             yield return 0;
         }
 
-        GameManager.Instance.m_customer = m_customer;
+        GameManager.Instance.CustomerReady(m_customer);
     }
     
     private IEnumerator CustomerExit()
     {
-        GameManager.Instance.m_customer = null;
+        GameManager.Instance.m_currentCustomer = null;
         float time = 0;
         while (time < m_customerLeaveDelay)
         {
