@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      asiakaspalvelu_mummo_angry_0.1_0: -1382217390010911101
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

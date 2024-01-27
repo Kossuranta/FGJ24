@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 0af904e76dcb7e647a275727b83b492d
+guid: a33fc2dc6bd36fa4592e12d977cf73f7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3096851731620070214
-    second: asiakaspalvelu_mummo_happy_0.1_0
+      213: 8199733917796848026
+    second: timemoney_0
+  - first:
+      213: -6236521818633394233
+    second: timemoney_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: asiakaspalvelu_mummo_happy_0.1_0
+      name: timemoney_0
       rect:
         serializedVersion: 2
-        x: 262
-        y: 0
-        width: 1448
-        height: 1789
+        x: 0
+        y: 68
+        width: 410
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +117,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6438449fd3a3afa20800000000000000
-      internalID: 3096851731620070214
+      spriteID: a91d00fdd8e4bc170800000000000000
+      internalID: 8199733917796848026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timemoney_1
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7226ec27c6379a0800000000000000
+      internalID: -6236521818633394233
       vertices: []
       indices: 
       edges: []
@@ -130,8 +154,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      asiakaspalvelu_mummo_happy_0.1_0: 3096851731620070214
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
