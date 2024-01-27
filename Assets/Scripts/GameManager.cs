@@ -14,11 +14,17 @@ public class GameManager : MonoBehaviour
     public Recipes m_recipes;
     public IngredientSprites m_ingredientSprites;
 
+    public AudioSource m_customerAudio;
+    public AudioSource m_backgroundAudio;
+    public AudioSource m_truckAudio;
+
     [NonSerialized]
     public readonly List<IngredientType> m_selectedIngredients = new(4);
 
     [NonSerialized]
     public Customer m_currentCustomer;
+
+    public Customer Boss => m_customerManager.m_boss;
     
     [NonSerialized]
     public RecipeType m_currentOrder;
@@ -154,5 +160,20 @@ public class GameManager : MonoBehaviour
     {
         m_currentCustomer.MakeSad();
         m_dialogBox.CustomerResponse(m_currentCustomer.m_responseSad);
+    }
+
+    public void PlayCustomerAudio(Customer _customer)
+    {
+        StopCustomerAudio();
+        if (_customer == null)
+            return;
+        
+        m_customerAudio.clip = _customer.m_audio;
+        m_customerAudio.Play();
+    }
+
+    public void StopCustomerAudio()
+    {
+        m_customerAudio.Stop();
     }
 }

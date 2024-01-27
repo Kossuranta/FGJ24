@@ -60,6 +60,12 @@ public class DialogBox : MonoBehaviour
                 gameObject.SetActive(false);
                 return;
             }
+
+            if (m_dialogIndex == 0)
+            {
+                GameManager.Instance.PlayCustomerAudio(GameManager.Instance.m_currentCustomer);
+                Debug.Log("Play audio");
+            }
             
             string line = m_dialog[m_dialogIndex];
             m_dialogIndex++;
@@ -82,6 +88,11 @@ public class DialogBox : MonoBehaviour
                 GameManager.Instance.m_customerManager.HideBoss();
                 NextDialog();
                 return;
+            }
+            
+            if (m_overrideIndex == 0)
+            {
+                GameManager.Instance.PlayCustomerAudio(GameManager.Instance.Boss);
             }
             
             string line = m_overrideDialog[m_overrideIndex];

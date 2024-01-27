@@ -12,7 +12,8 @@ public class CustomerManager : MonoBehaviour
     public PositionPair[] m_bossPositions;
     public float m_speed;
 
-    private Customer m_boss;
+    [NonSerialized]
+    public Customer m_boss;
     private int m_bossIndex;
     private int m_bossPosIndex;
     private Customer m_customer;
@@ -28,6 +29,7 @@ public class CustomerManager : MonoBehaviour
 
     public void CustomerLeave()
     {
+        GameManager.Instance.StopCustomerAudio();
         StartCoroutine(CustomerExit());
     }
 
