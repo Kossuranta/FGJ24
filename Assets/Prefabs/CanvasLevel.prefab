@@ -1,5 +1,57 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &44070287851999019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5863480701164142048}
+  - component: {fileID: 7082736799094882023}
+  m_Layer: 5
+  m_Name: CustomerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5863480701164142048
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44070287851999019}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7949964402305107018}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7082736799094882023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44070287851999019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36c66b00e8d7481c8d08ea1be03882db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_outOfScreenPos: {x: 2165, y: 650}
+  m_customerPosition: {x: 826, y: 650}
+  m_customerPrefab: {fileID: -3085467415739297304, guid: c1479652c565fb44caba2badc0f4600e, type: 3}
+  m_speed: 1
 --- !u!1 &554565967833876413
 GameObject:
   m_ObjectHideFlags: 0
@@ -110,7 +162,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 4, y: 4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2097428146208977700
 CanvasRenderer:
@@ -313,6 +365,7 @@ RectTransform:
   m_Children:
   - {fileID: 2967704031208242975}
   - {fileID: 5884731585475993874}
+  - {fileID: 5863480701164142048}
   - {fileID: 2762698409614035022}
   - {fileID: 7435269406714817535}
   m_Father: {fileID: 0}
@@ -335,6 +388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_deskManager: {fileID: 3514308944614870812}
+  m_customerManager: {fileID: 7082736799094882023}
 --- !u!223 &4288283100312404066
 Canvas:
   m_ObjectHideFlags: 0

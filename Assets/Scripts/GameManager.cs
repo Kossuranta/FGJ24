@@ -5,6 +5,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance { get; private set; }
 
     public DeskManager m_deskManager;
+    public CustomerManager m_customerManager;
 
     public const int SCREEN_HEIGHT = 1080;
     public const int SCREEN_WIDTH = 1920;
@@ -24,5 +25,6 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         m_deskManager.Initialize();
+        m_customerManager.Initialize();
     }
 }
