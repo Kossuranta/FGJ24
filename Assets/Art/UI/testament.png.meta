@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0cf724298e6800c45b3619c71a681589
+guid: 14e41f6006260450e8fe39eee255f2b2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7346612907530598944
-    second: truck_0
+      213: 6534956050186354824
+    second: testament_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: truck_0
+      name: testament_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 791
-        height: 376
+        width: 580
+        height: 715
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0e5c6501c769b0a90800000000000000
-      internalID: -7346612907530598944
+      spriteID: 880c52a67e3d0ba50800000000000000
+      internalID: 6534956050186354824
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      truck_0: -7346612907530598944
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
