@@ -22,8 +22,8 @@ public class DialogBox : MonoBehaviour
         m_overrideDialog = null;
         m_dialog = _dialog;
         m_dialogIndex = 0;
-        NextDialog();
         m_nextDialog.gameObject.SetActive(true);
+        NextDialog();
         gameObject.SetActive(true);
     }
 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      no-hawajii_0: 2750174069842446455
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
