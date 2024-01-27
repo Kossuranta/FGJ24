@@ -17,6 +17,8 @@ public class Customer : MonoBehaviour
     public bool m_showNoButton;
     public float m_moveDuration = 1f;
 
+    public GameObject m_customNoButton;
+
     public void Initialize()
     {
         MakeHappy();
