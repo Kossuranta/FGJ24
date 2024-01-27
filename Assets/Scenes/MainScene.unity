@@ -315,6 +315,14 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 3018072761791982748}
+    - target: {fileID: 7082736799094882023, guid: 818e245ba6f8fe74d8f9678ac5d24531, type: 3}
+      propertyPath: 'm_customers.Array.data[0]'
+      value: 
+      objectReference: {fileID: -3085467415739297304, guid: 42c2525efa11782419dedf964f505008, type: 3}
+    - target: {fileID: 7082736799094882023, guid: 818e245ba6f8fe74d8f9678ac5d24531, type: 3}
+      propertyPath: 'm_customers.Array.data[1]'
+      value: 
+      objectReference: {fileID: -3085467415739297304, guid: 42c2525efa11782419dedf964f505008, type: 3}
     - target: {fileID: 7206306537134303601, guid: 818e245ba6f8fe74d8f9678ac5d24531, type: 3}
       propertyPath: m_Name
       value: CanvasLevel

@@ -10,12 +10,31 @@ public class DialogBox : MonoBehaviour
     public Button m_nextDialog;
 
     private int m_dialogIndex;
+    private string[] m_dialog;
+    private int m_overrideIndex;
+    private string[] m_overrideDialog;
+    private bool m_bossSaidNo;
 
-    private void OnEnable()
+    public void ShowDialog(string[] _dialog)
     {
-        m_nextDialog.gameObject.SetActive(true);
+        Debug.Log($"Show Dialog");
+        m_bossSaidNo = false;
+        m_overrideDialog = null;
+        m_dialog = _dialog;
         m_dialogIndex = 0;
         NextDialog();
+        m_nextDialog.gameObject.SetActive(true);
+        gameObject.SetActive(true);
+    }
+
+    public void ShowOverrideDialog(string[] _dialog)
+    {
+        Debug.Log($"Show Override Dialog");
+        m_overrideDialog = _dialog;
+        m_overrideIndex = 0;
+        NextDialog();
+        m_nextDialog.gameObject.SetActive(true);
+        gameObject.SetActive(true);
     }
 
     public void ButtonYes()
@@ -23,31 +42,55 @@ public class DialogBox : MonoBehaviour
         m_buttonYes.gameObject.SetActive(false);
         m_buttonNo.gameObject.SetActive(false);
         m_nextDialog.gameObject.SetActive(false);
-        GameManager.Instance.MakeOrder();
+        GameManager.Instance.OnButtonYes();
     }
 
     public void ButtonNo()
     {
-        
+        GameManager.Instance.OnButtonNo();
     }
 
     public void NextDialog()
     {
-        string[] dialog = GameManager.Instance.m_currentCustomer.m_dialog;
-        if (m_dialogIndex == dialog.Length)
+        if (m_overrideDialog == null)
         {
-            GameManager.Instance.CustomerServed();
-            gameObject.SetActive(false);
-        }
-        else
-        {
-            string line = dialog[m_dialogIndex];
+            if (m_dialogIndex >= m_dialog.Length)
+            {
+                GameManager.Instance.CustomerServed();
+                gameObject.SetActive(false);
+                return;
+            }
+            
+            string line = m_dialog[m_dialogIndex];
             m_dialogIndex++;
             m_dialogTextMesh.text = line;
         
-            m_buttonYes.gameObject.SetActive(m_dialogIndex == dialog.Length);
-            m_buttonNo.gameObject.SetActive(m_dialogIndex == dialog.Length);
-            m_nextDialog.gameObject.SetActive(m_dialogIndex != dialog.Length);
+            m_buttonYes.gameObject.SetActive(m_dialogIndex == m_dialog.Length);
+            if (!GameManager.Instance.m_currentCustomer.m_showNoButton || m_bossSaidNo)
+                m_buttonNo.gameObject.SetActive(false);
+            else
+                m_buttonNo.gameObject.SetActive(m_dialogIndex == m_dialog.Length);
+            m_nextDialog.gameObject.SetActive(m_dialogIndex != m_dialog.Length);
+        }
+        else
+        {
+            if (m_overrideIndex >= m_overrideDialog.Length)
+            {
+                m_overrideDialog = null;
+                m_dialogIndex--;
+                m_bossSaidNo = true;
+                GameManager.Instance.m_customerManager.HideBoss();
+                NextDialog();
+                return;
+            }
+            
+            string line = m_overrideDialog[m_overrideIndex];
+            m_overrideIndex++;
+            m_dialogTextMesh.text = line;
+        
+            m_buttonYes.gameObject.SetActive(false);
+            m_buttonNo.gameObject.SetActive(false);
+            m_nextDialog.gameObject.SetActive(true);
         }
     }
 

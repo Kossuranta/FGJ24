@@ -63,10 +63,33 @@ public class GameManager : MonoBehaviour
         m_customerManager.NextCustomer();
     }
 
+    public void OnButtonYes()
+    {
+        if (m_currentOrder == RecipeType.None)
+        {
+            MakeOrder();
+        }
+        else
+        {
+            //Order resource
+        }
+    }
+
+    public void OnButtonNo()
+    {
+        m_dialogBox.m_nextDialog.gameObject.SetActive(false);
+        m_customerManager.ShowBoss();
+    }
+
+    public void ShowBossDialog(Customer _boss)
+    {
+        m_dialogBox.ShowOverrideDialog(_boss.m_dialog);
+    }
+
     public void CustomerReady(Customer _customer)
     {
         m_currentCustomer = _customer;
-        m_dialogBox.gameObject.SetActive(true);
+        m_dialogBox.ShowDialog(_customer.m_dialog);
     }
 
     public void MakeOrder()
@@ -131,6 +154,5 @@ public class GameManager : MonoBehaviour
     {
         m_currentCustomer.MakeSad();
         m_dialogBox.CustomerResponse(m_currentCustomer.m_responseSad);
-        
     }
 }
