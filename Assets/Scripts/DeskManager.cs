@@ -8,4 +8,9 @@ public class DeskManager : MonoBehaviour
     {
         m_recipeManager.Initialize();
     }
+
+    public void StartDay(int _day)
+    {
+        m_recipeManager.GenerateRecipes(_day);
+    }
 }

@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
+    public MainMenu m_mainMenu;
     public DeskManager m_deskManager;
     public CustomerManager m_customerManager;
 
@@ -14,6 +15,8 @@ public class GameManager : MonoBehaviour
 
     [NonSerialized]
     public Customer m_customer;
+
+    public int m_day = 0;
 
     public const int SCREEN_HEIGHT = 1080;
     public const int SCREEN_WIDTH = 1920;
@@ -32,9 +35,20 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        m_mainMenu.gameObject.SetActive(true);
         m_deskManager.Initialize();
         m_customerManager.Initialize();
-        
+    }
+
+    public void StartGame()
+    {
+        m_mainMenu.gameObject.SetActive(false);
+        StartDay(0);
+    }
+
+    public void StartDay(int _day)
+    {
+        m_deskManager.StartDay(_day);
         m_customerManager.NextCustomer();
     }
 
@@ -47,5 +61,20 @@ public class GameManager : MonoBehaviour
             return;
         
         m_selectedIngredients.Add(_ingredient);
+    }
+
+    private void BakeBun()
+    {
+        
+    }
+
+    public void CustomerServed()
+    {
+        m_customerManager.CustomerLeave();
+    }
+
+    public void CustomerLeft()
+    {
+        m_customerManager.NextCustomer();
     }
 }
