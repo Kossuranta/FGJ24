@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tipjar 1_0: 373080082637500374
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

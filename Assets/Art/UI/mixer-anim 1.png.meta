@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mixer-anim 1_0: 9177254250963188976
+      mixer-anim 1_1: 6331639586284635336
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

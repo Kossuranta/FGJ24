@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mixerbowl-front_0: -2867025494113829007
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bowl-front 1_0: -867064615076788060
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
