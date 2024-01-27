@@ -73,9 +73,18 @@ public class GameManager : MonoBehaviour
 
     public void OnButtonYes()
     {
+        if (m_currentCustomer.m_order == RecipeType.None)
+        {
+            m_customerManager.CustomerLeave();
+            return;
+        }
+        
         if (m_currentOrder == RecipeType.None)
         {
-            MakeOrder();
+            if (m_currentCustomer.m_order == RecipeType.HotDog)
+                ShowNextBoss();
+            else
+                MakeOrder();
         }
         else
         {
@@ -84,6 +93,11 @@ public class GameManager : MonoBehaviour
     }
 
     public void OnButtonNo()
+    {
+        ShowNextBoss();
+    }
+
+    private void ShowNextBoss()
     {
         m_dialogBox.m_nextDialog.gameObject.SetActive(false);
         m_customerManager.ShowBoss();
