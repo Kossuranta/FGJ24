@@ -9,6 +9,7 @@ public class CustomerManager : MonoBehaviour
     public Vector2 m_outOfScreenPos;
     public Vector2 m_customerPosition;
     public float m_speed;
+    public float m_customerLeaveDelay;
     
     private Customer m_customer;
     private Vector2 m_velocity;
@@ -31,7 +32,6 @@ public class CustomerManager : MonoBehaviour
     {
         m_customer = Instantiate(m_customers[m_index], transform);
         m_index++;
-        m_customer.Initialize();
 
         StartCoroutine(CustomerEnter());
     }
@@ -53,6 +53,13 @@ public class CustomerManager : MonoBehaviour
     {
         GameManager.Instance.m_customer = null;
         float time = 0;
+        while (time < m_customerLeaveDelay)
+        {
+            time += Time.deltaTime;
+            yield return 0;
+        }
+
+        time = 0;
         while (time < 1)
         {
             time += Time.deltaTime * m_speed;

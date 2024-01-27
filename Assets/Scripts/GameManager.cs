@@ -10,8 +10,11 @@ public class GameManager : MonoBehaviour
     public DeskManager m_deskManager;
     public CustomerManager m_customerManager;
 
+    public Recipes m_recipes;
+    public IngredientSprites m_ingredientSprites;
+
     [NonSerialized]
-    public readonly List<IngredientType> m_selectedIngredients = new();
+    public readonly List<IngredientType> m_selectedIngredients = new(4);
 
     [NonSerialized]
     public Customer m_customer;
@@ -54,18 +57,36 @@ public class GameManager : MonoBehaviour
 
     public void AddIngredient(IngredientType _ingredient)
     {
-        if (m_selectedIngredients.Count >= 6)
+        if (m_selectedIngredients.Count >= 4)
             return;
         
         if (m_customer == null)
             return;
         
+        m_deskManager.SetIngredient(m_selectedIngredients.Count, _ingredient);
         m_selectedIngredients.Add(_ingredient);
+        Debug.Log($"Added ingredient {_ingredient}");
+        if (m_selectedIngredients.Count == 4)
+            Invoke(nameof(BakeBun), 1);
     }
 
     private void BakeBun()
     {
+        RecipeData recipe = m_recipes.GetRecipe(m_customer.m_order);
+        int correctIngredients = 0;
+        foreach (IngredientType ingredient in recipe.m_ingredients)
+        {
+            if (m_selectedIngredients.Contains(ingredient))
+                correctIngredients++;
+        }
+        m_selectedIngredients.Clear();
+        m_deskManager.ClearIngredients();
         
+        Debug.Log($"Bake completed, success: {correctIngredients}/4");
+        if (correctIngredients == 4)
+            BakeSuccess();
+        else
+            BakeFail();
     }
 
     public void CustomerServed()
@@ -76,5 +97,17 @@ public class GameManager : MonoBehaviour
     public void CustomerLeft()
     {
         m_customerManager.NextCustomer();
+    }
+    
+    private void BakeSuccess()
+    {
+        m_customer.MakeHappy();
+        CustomerServed();
+    }
+
+    private void BakeFail()
+    {
+        m_customer.MakeSad();
+        CustomerServed();
     }
 }

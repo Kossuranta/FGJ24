@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7597087578419226603}
   - component: {fileID: -3085467415739297304}
   m_Layer: 5
-  m_Name: Customer
+  m_Name: CustomerMummo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49,6 +49,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8654b1b99d5f40769d5aabf3fe312265, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_image: {fileID: 4851656962272421990}
+  m_rect: {fileID: 7597087578419226603}
+  m_order: 1
+  m_dialog: []
+  m_happy: {fileID: 3096851731620070214, guid: 0af904e76dcb7e647a275727b83b492d, type: 3}
+  m_sad: {fileID: -1382217390010911101, guid: 889897ac2f468dc4f8b750af38530dd0, type: 3}
 --- !u!1 &1466773220233465482
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aade9c279e814c6aacc79bdefebb83a0, type: 3}
+  m_Name: IngredientSprites
+  m_EditorClassIdentifier: 
+  m_ingredientSprites:
+  - m_name: Wheat
+    m_type: 1
+    m_sprite: {fileID: -4068655996489765427, guid: 04712925797ea4a1c93f8f83355b1290, type: 3}
+  - m_name: Milk
+    m_type: 2
+    m_sprite: {fileID: 5986931794265596279, guid: e0387a01fe60d4b30904dca27cea3000, type: 3}
+  - m_name: Sugar
+    m_type: 4
+    m_sprite: {fileID: -2453831553253489106, guid: e30f77160c41743538082a5497e5a269, type: 3}
+  - m_name: Butter
+    m_type: 8
+    m_sprite: {fileID: 3708972759905113012, guid: 9be0d66606c304fcbaae0402a316ff56, type: 3}
