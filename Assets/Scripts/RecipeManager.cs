@@ -9,6 +9,7 @@ public class RecipeManager : MonoBehaviour
     public Recipe m_recipePrefab;
     public Vector2 m_recipeSpawnPos;
     public float m_recipeOffset;
+    
     private readonly List<Recipe> m_recipes = new();
 
     public void Initialize()

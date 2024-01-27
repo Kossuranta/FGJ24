@@ -6,6 +6,6 @@ public class IngredientButton : MonoBehaviour
 
     public void AddIngredient()
     {
-        
+        GameManager.Instance.AddIngredient(m_ingredient);
     }
 }

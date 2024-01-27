@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      restartgame-hover_0: 1484938143892557771
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
