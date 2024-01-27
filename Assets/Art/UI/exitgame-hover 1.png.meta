@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      exitgame-hover 1_0: 2507605511496795225
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
