@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      phoneui-satan-active_0: 682403902354226510
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

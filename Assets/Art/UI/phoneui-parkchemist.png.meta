@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      phoneui-parkchemist_0: -4308474536189985449
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
