@@ -103,10 +103,10 @@ TextureImporter:
       name: talkArtboard 2 copy_0
       rect:
         serializedVersion: 2
-        x: 142
-        y: 100
-        width: 224
-        height: 345
+        x: 139
+        y: 98
+        width: 230
+        height: 349
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      talkArtboard 2 copy_0: 1170695074276450135
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
