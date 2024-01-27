@@ -30,7 +30,7 @@ public class Recipe : MonoBehaviour, IPointerDownHandler, IDragHandler
         float widthMultiplier = (float)GameManager.SCREEN_WIDTH / Screen.width;
         float heightMultiplier = (float)GameManager.SCREEN_HEIGHT / Screen.height;
         float xPos = screenPos.x * widthMultiplier;
-        float yPos = screenPos.y * heightMultiplier - 128;
-        m_rect.anchoredPosition = new Vector2(xPos, yPos) - m_offset;
+        float yPos = screenPos.y * heightMultiplier;
+        m_recipeManager.SetRecipePosition(m_rect, new Vector2(xPos, yPos) - m_offset);
     }
 }
