@@ -13,6 +13,7 @@ public class Customer : MonoBehaviour
     public string[] m_dialog;
     public string m_responseHappy;
     public string m_responseSad;
+    public bool m_showNoButton;
 
     public void Initialize()
     {
