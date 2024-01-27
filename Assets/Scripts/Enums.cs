@@ -34,6 +34,7 @@ public enum IngredientType
     Soul = 401,
     VirginBlood = 402,
     MysteryMeat = 403,
+    Spine = 404,
 }
 
 public enum RecipeType
@@ -52,7 +53,7 @@ public enum RecipeType
     BirthdayCakeDay5 = 11,
     DevilBun = 12,
     ColdDog = 13,
-    Spine = 14,
+    
 
 
 
