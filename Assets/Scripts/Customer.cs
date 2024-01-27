@@ -1,14 +1,23 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class Customer : MonoBehaviour
 {
-    [NonSerialized]
+    public Image m_image;
     public RectTransform m_rect;
-    public string[] dialogArray;
+    
+    public RecipeType m_order;
+    public string[] m_dialog;
+    public Sprite m_happy;
+    public Sprite m_sad;
 
-    public void Initialize()
+    public void MakeHappy()
     {
-        m_rect = GetComponent<RectTransform>();
+        m_image.sprite = m_happy;
+    }
+
+    public void MakeSad()
+    {
+        m_image.sprite = m_sad;
     }
 }

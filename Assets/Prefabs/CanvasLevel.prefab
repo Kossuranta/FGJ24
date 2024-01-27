@@ -986,8 +986,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3ea21f4ecf48564183ee7c571d0b0b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_mainMenu: {fileID: 0}
   m_deskManager: {fileID: 3514308944614870812}
   m_customerManager: {fileID: 7082736799094882023}
+  m_recipes: {fileID: 11400000, guid: d999ee921cbb7b34986e65f819056e5d, type: 2}
+  m_day: 0
 --- !u!223 &4288283100312404066
 Canvas:
   m_ObjectHideFlags: 0
