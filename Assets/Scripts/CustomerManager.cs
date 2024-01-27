@@ -29,6 +29,7 @@ public class CustomerManager : MonoBehaviour
 
     public void CustomerLeave()
     {
+        GameManager.Instance.StopCustomerAudio();
         StartCoroutine(CustomerExit());
     }
 
