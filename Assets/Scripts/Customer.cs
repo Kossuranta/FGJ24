@@ -7,10 +7,10 @@ public class Customer : MonoBehaviour
     public RectTransform m_rect;
     
     public RecipeType m_order;
-    public string[] m_dialog;
     public Sprite m_happy;
     public Sprite m_sad;
 
+    public string[] m_dialog;
     public string m_responseHappy;
     public string m_responseSad;
 
