@@ -19,11 +19,12 @@ public class RecipeManager : MonoBehaviour
 
     public void GenerateRecipes(int _day)
     {
-        for (int i = 0; i < 10; i++)
+        RecipeData[] recipes = GameManager.Instance.m_recipes.m_recipes;
+        for (int i = 0; i < recipes.Length; i++)
         {
             Recipe r = Instantiate(m_recipePrefab, transform);
             m_recipes.Add(r);
-            r.Initialize(this, m_canvas);
+            r.Initialize(this, m_canvas, recipes[i]);
             Vector2 spawnPos = m_recipeSpawnPos;
             float offset = m_recipeOffset * i;
             spawnPos.x += offset;

@@ -1,9 +1,13 @@
 ﻿using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class Recipe : MonoBehaviour, IPointerDownHandler, IDragHandler
 {
+    public Image m_productImage;
+    public Image[] m_ingredientImages;
+    
     [NonSerialized]
     public RectTransform m_rect;
     
@@ -11,11 +15,18 @@ public class Recipe : MonoBehaviour, IPointerDownHandler, IDragHandler
     private Canvas m_canvas;
     private Vector2 m_offset;
 
-    public void Initialize(RecipeManager _recipeManager, Canvas _canvas)
+    public void Initialize(RecipeManager _recipeManager, Canvas _canvas, RecipeData _recipeData)
     {
         m_recipeManager = _recipeManager;
         m_canvas = _canvas;
         m_rect = (RectTransform)transform;
+
+        m_productImage.sprite = _recipeData.m_sprite;
+        for (int i = 0; i < m_ingredientImages.Length; i++)
+        {
+            Sprite sprite = GameManager.Instance.m_ingredientSprites.GetSprite(_recipeData.m_ingredients[i]);
+            m_ingredientImages[i].sprite = sprite;
+        }
     }
     
     public void OnPointerDown(PointerEventData _eventData)
