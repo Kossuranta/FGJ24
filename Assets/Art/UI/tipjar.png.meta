@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0af904e76dcb7e647a275727b83b492d
+guid: 2bf2da5c6ffdc1841a0a3fc81b9e030e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3096851731620070214
-    second: asiakaspalvelu_mummo_happy_0.1_0
+      213: -7637695396895623630
+    second: tipjar_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: asiakaspalvelu_mummo_happy_0.1_0
+      name: tipjar_0
       rect:
         serializedVersion: 2
-        x: 262
+        x: 0
         y: 0
-        width: 1448
-        height: 1789
+        width: 147
+        height: 202
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6438449fd3a3afa20800000000000000
-      internalID: 3096851731620070214
+      spriteID: 2367665b084710690800000000000000
+      internalID: -7637695396895623630
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      asiakaspalvelu_mummo_happy_0.1_0: 3096851731620070214
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
