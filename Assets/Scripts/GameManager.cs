@@ -16,6 +16,8 @@ public class GameManager : MonoBehaviour
     [NonSerialized]
     public Customer m_customer;
 
+    public int m_day = 0;
+
     public const int SCREEN_HEIGHT = 1080;
     public const int SCREEN_WIDTH = 1920;
 
@@ -59,6 +61,11 @@ public class GameManager : MonoBehaviour
             return;
         
         m_selectedIngredients.Add(_ingredient);
+    }
+
+    private void BakeBun()
+    {
+        
     }
 
     public void CustomerServed()

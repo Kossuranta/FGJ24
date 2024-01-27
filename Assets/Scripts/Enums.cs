@@ -35,3 +35,9 @@ public enum IngredientType
     VirginBlood = 402,
     MysteryMeat = 403,
 }
+
+public enum RecipeType
+{
+    None = 0,
+    Pun = 1,
+}
