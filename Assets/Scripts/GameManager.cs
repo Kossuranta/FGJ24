@@ -35,6 +35,8 @@ public class GameManager : MonoBehaviour
     public const int SCREEN_HEIGHT = 1080;
     public const int SCREEN_WIDTH = 1920;
 
+    private bool m_bakingSuccess;
+
     private void Awake()
     {
         if (Instance != null)
@@ -133,11 +135,8 @@ public class GameManager : MonoBehaviour
         m_deskManager.ClearIngredients();
         m_currentOrder = RecipeType.None;
         
-        Debug.Log($"Bake completed, success: {correctIngredients}/4");
-        if (correctIngredients == 4)
-            BakeSuccess();
-        else
-            BakeFail();
+        Debug.Log($"Ingredients selected, correctness: {correctIngredients}/4");
+        m_bakingSuccess = correctIngredients == 4;
     }
 
     public void CustomerServed()
@@ -149,7 +148,15 @@ public class GameManager : MonoBehaviour
     {
         m_customerManager.NextCustomer();
     }
-    
+
+    public void MixingCompleted()
+    {
+        if (m_bakingSuccess)
+            BakeSuccess();
+        else
+            BakeFail();
+    }
+
     private void BakeSuccess()
     {
         m_currentCustomer.MakeHappy();

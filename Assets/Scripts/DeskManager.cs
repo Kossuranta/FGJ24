@@ -5,9 +5,11 @@ using UnityEngine.UI;
 public class DeskManager : MonoBehaviour
 {
     public RecipeManager m_recipeManager;
+    public Mixer m_mixer;
     public Image[] m_ingredientSlots;
     public float m_fadeInDuration = 1f;
     public float m_fadeOutDuration = 1f;
+    public float m_mixerDuration = 2f;
 
     public void Initialize()
     {
@@ -27,6 +29,7 @@ public class DeskManager : MonoBehaviour
 
     private void BlendIngredients()
     {
+        m_mixer.StartMixer();
         foreach (Image image in m_ingredientSlots)
         {
             StartCoroutine(nameof(FadeOut), image);
@@ -89,7 +92,15 @@ public class DeskManager : MonoBehaviour
             _image.color = color;
             yield return 0;
         }
+
+        timer = 0;
+        while (timer < m_mixerDuration)
+        {
+            timer += Time.deltaTime / m_mixerDuration;
+            yield return 0;
+        }
         
         ResetIngredients();
+        GameManager.Instance.MixingCompleted();
     }
 }
