@@ -52,15 +52,21 @@ MonoBehaviour:
   m_image: {fileID: 4851656962272421990}
   m_rect: {fileID: 7597087578419226603}
   m_order: 11
+  m_audio: {fileID: 0}
   m_happy: {fileID: 21300000, guid: 0af904e76dcb7e647a275727b83b492d, type: 3}
   m_sad: {fileID: 21300000, guid: 889897ac2f468dc4f8b750af38530dd0, type: 3}
   m_dialog:
-  - 
-  - 
-  - 
-  - 
-  m_responseHappy: 
-  m_responseSad: 
+  - Oh hello dear. I'm not feeling that well today, but I couldn't stay home because
+    it's my birthday! Happy birthday me! Could I have the greatest birthday cake?
+  - Just remember the words I always tell you "Baking powder ruins a good cake, milk
+    shouldn't even enter the room, sugar just pisses on everything and when you feel
+    down just throw the flour out of the window!
+  - Words of my... umm well this is embarrassing I can't seem to recall who said
+    that
+  m_responseHappy: You have outdone yourself dear! This cake brings back memories
+    of my seventh husband.
+  m_responseSad: Don't worry dear, if you at first don't succeed then try and try
+    again!
   m_showNoButton: 0
 --- !u!1 &1466773220233465482
 GameObject:

@@ -52,12 +52,14 @@ MonoBehaviour:
   m_image: {fileID: 4851656962272421990}
   m_rect: {fileID: 7597087578419226603}
   m_order: 2
+  m_audio: {fileID: 0}
   m_happy: {fileID: 21300000, guid: 0af904e76dcb7e647a275727b83b492d, type: 3}
   m_sad: {fileID: 21300000, guid: 889897ac2f468dc4f8b750af38530dd0, type: 3}
   m_dialog:
-  - '"Oh hiii, haven''t seen you before. Shame, the last baker, knew all of my many
-    dietary limitations. Well, I just have to train you. Brace yourself; this is
-    going to be a long and grueling crash course that is going to take yeeears! '
+  - Oh hiii, haven't seen you before. Shame, the last baker, knew all of my many
+    dietary limitations. Well, I just have to train you.
+  - ' Brace yourself; this is going to be a long and grueling crash course that is
+    going to take yeeears! '
   - Let's start simple, though. I'll have a bun without milk, please. It gives me
     such gas, that I'm technically classified as a chemical weapon.
   m_responseHappy: Mmmmmm juuuuuuust perfect! And remember! NO MILK!

@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 8de08b4f84ff4364c9e4ac385eb88176
+guid: a5f67c99288315e4e8669924ea3b0483
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 784449034516037211
-    second: text-mixemup_0
+      213: -8194172964878831296
+    second: text-mixemup 1_0
   - first:
-      213: -7167620229842398745
-    second: text-mixemup_1
+      213: -8966699940678616244
+    second: text-mixemup 1_1
   - first:
-      213: 7993078266442398411
-    second: text-mixemup_2
+      213: -6041165438535104524
+    second: text-mixemup 1_2
   - first:
-      213: 1687458029436554056
-    second: text-mixemup_3
+      213: -7194303190101397046
+    second: text-mixemup 1_3
   - first:
-      213: -995114992648615808
-    second: text-mixemup_4
+      213: -7622756300069306393
+    second: text-mixemup 1_4
   - first:
-      213: -5014337651946764280
-    second: text-mixemup_5
+      213: 1479220954285847899
+    second: text-mixemup 1_5
   - first:
-      213: 1709364461394890152
-    second: text-mixemup_6
+      213: -1026363269330016607
+    second: text-mixemup 1_6
   - first:
-      213: 2456586465011691535
-    second: text-mixemup_7
+      213: -8715132104411126922
+    second: text-mixemup 1_7
   - first:
-      213: -8333418243178459366
-    second: text-mixemup_8
+      213: -7647592976458809718
+    second: text-mixemup 1_8
   - first:
-      213: 369576571649775692
-    second: text-mixemup_9
+      213: -7129487798120825993
+    second: text-mixemup 1_9
   - first:
-      213: -583378869823238024
-    second: text-mixemup_10
+      213: -7361734403846358643
+    second: text-mixemup 1_10
   - first:
-      213: 596352130127362380
-    second: text-mixemup_11
+      213: -1908197603215192713
+    second: text-mixemup 1_11
   - first:
-      213: -5991707815751006313
-    second: text-mixemup_12
+      213: -5062300179872284283
+    second: text-mixemup 1_12
   - first:
-      213: 6997106077805320729
-    second: text-mixemup_13
+      213: -8506550020344850043
+    second: text-mixemup 1_13
   - first:
-      213: -882280191297982622
-    second: text-mixemup_14
+      213: 992677593988362109
+    second: text-mixemup 1_14
   - first:
-      213: -4023965884745411820
-    second: text-mixemup_15
+      213: 4909288346378861955
+    second: text-mixemup 1_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -91,7 +91,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -145,7 +145,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: text-mixemup_0
+      name: text-mixemup 1_0
       rect:
         serializedVersion: 2
         x: 92
@@ -159,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5ef9be9d3ce2ea00800000000000000
-      internalID: 784449034516037211
+      spriteID: 041b9406a13784e80800000000000000
+      internalID: -8194172964878831296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: text-mixemup_1
+      name: text-mixemup 1_1
       rect:
         serializedVersion: 2
         x: 119
@@ -180,14 +180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e1175b606f778c90800000000000000
-      internalID: -7167620229842398745
+      spriteID: c4bb55c59e1ef8380800000000000000
+      internalID: -8966699940678616244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: text-mixemup_2
+      name: text-mixemup 1_2
       rect:
         serializedVersion: 2
         x: 139
@@ -201,14 +201,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bcab13d855e1dee60800000000000000
-      internalID: 7993078266442398411
+      spriteID: 4f78fb68a08792ca0800000000000000
+      internalID: -6041165438535104524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: text-mixemup_3
+      name: text-mixemup 1_3
       rect:
         serializedVersion: 2
         x: 168
@@ -222,14 +222,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84b42f1232e0b6710800000000000000
-      internalID: 1687458029436554056
+      spriteID: ac1fb8b9d53b82c90800000000000000
+      internalID: -7194303190101397046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: text-mixemup_4
+      name: text-mixemup 1_4
       rect:
         serializedVersion: 2
         x: 33
@@ -243,14 +243,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0888380cf24a032f0800000000000000
-      internalID: -995114992648615808
+      spriteID: 7ef7ffc3887863690800000000000000
+      internalID: -7622756300069306393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: text-mixemup_5
+      name: text-mixemup 1_5
       rect:
         serializedVersion: 2
         x: 70
@@ -264,14 +264,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 808c8dff87e796ab0800000000000000
-      internalID: -5014337651946764280
+      spriteID: b55b584ee9f378410800000000000000
+      internalID: 1479220954285847899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: text-mixemup_6
+      name: text-mixemup 1_6
       rect:
         serializedVersion: 2
         x: 82
@@ -285,14 +285,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ad8e19cbe1e8b710800000000000000
-      internalID: 1709364461394890152
+      spriteID: 1a663116b00a1c1f0800000000000000
+      internalID: -1026363269330016607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: text-mixemup_7
+      name: text-mixemup 1_7
       rect:
         serializedVersion: 2
         x: 106
@@ -306,14 +306,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f00fd07df5c871220800000000000000
-      internalID: 2456586465011691535
+      spriteID: 673e8f99681ad0780800000000000000
+      internalID: -8715132104411126922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: text-mixemup_8
+      name: text-mixemup 1_8
       rect:
         serializedVersion: 2
         x: 118
@@ -327,14 +327,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1f869a9240c95c80800000000000000
-      internalID: -8333418243178459366
+      spriteID: a8e7663e4ba4ed590800000000000000
+      internalID: -7647592976458809718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: text-mixemup_9
+      name: text-mixemup 1_9
       rect:
         serializedVersion: 2
         x: 142
@@ -348,14 +348,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c48dd7e0feff02500800000000000000
-      internalID: 369576571649775692
+      spriteID: 77bb68a0f98fe0d90800000000000000
+      internalID: -7129487798120825993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: text-mixemup_10
+      name: text-mixemup 1_10
       rect:
         serializedVersion: 2
         x: 197
@@ -369,14 +369,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 87097be320c67e7f0800000000000000
-      internalID: -583378869823238024
+      spriteID: d8937f7509dd5d990800000000000000
+      internalID: -7361734403846358643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: text-mixemup_11
+      name: text-mixemup 1_11
       rect:
         serializedVersion: 2
         x: 247
@@ -390,14 +390,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c49f94d4a1ba64800800000000000000
-      internalID: 596352130127362380
+      spriteID: 77d4b13d368b485e0800000000000000
+      internalID: -1908197603215192713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: text-mixemup_12
+      name: text-mixemup 1_12
       rect:
         serializedVersion: 2
         x: 69
@@ -411,14 +411,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 797ca3cac7d29dca0800000000000000
-      internalID: -5991707815751006313
+      spriteID: 5810150cec81fb9b0800000000000000
+      internalID: -5062300179872284283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: text-mixemup_13
+      name: text-mixemup 1_13
       rect:
         serializedVersion: 2
         x: 221
@@ -432,14 +432,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91a105fc7e6ba1160800000000000000
-      internalID: 6997106077805320729
+      spriteID: 589d04d73d9a2f980800000000000000
+      internalID: -8506550020344850043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: text-mixemup_14
+      name: text-mixemup 1_14
       rect:
         serializedVersion: 2
         x: 246
@@ -453,14 +453,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26fe15d27d281c3f0800000000000000
-      internalID: -882280191297982622
+      spriteID: d7f6a262303b6cd00800000000000000
+      internalID: 992677593988362109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: text-mixemup_15
+      name: text-mixemup 1_15
       rect:
         serializedVersion: 2
         x: 117
@@ -474,8 +474,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 413957309500828c0800000000000000
-      internalID: -4023965884745411820
+      spriteID: 38d70e19dbb412440800000000000000
+      internalID: 4909288346378861955
       vertices: []
       indices: 
       edges: []
@@ -483,30 +483,14 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      text-mixemup_0: 784449034516037211
-      text-mixemup_1: -7167620229842398745
-      text-mixemup_10: -583378869823238024
-      text-mixemup_11: 596352130127362380
-      text-mixemup_12: -5991707815751006313
-      text-mixemup_13: 6997106077805320729
-      text-mixemup_14: -882280191297982622
-      text-mixemup_15: -4023965884745411820
-      text-mixemup_2: 7993078266442398411
-      text-mixemup_3: 1687458029436554056
-      text-mixemup_4: -995114992648615808
-      text-mixemup_5: -5014337651946764280
-      text-mixemup_6: 1709364461394890152
-      text-mixemup_7: 2456586465011691535
-      text-mixemup_8: -8333418243178459366
-      text-mixemup_9: 369576571649775692
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

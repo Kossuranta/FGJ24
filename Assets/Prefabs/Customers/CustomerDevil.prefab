@@ -51,10 +51,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_image: {fileID: 4851656962272421990}
   m_rect: {fileID: 7597087578419226603}
-  m_order: 1
-  m_dialog: []
+  m_order: 0
+  m_audio: {fileID: 0}
   m_happy: {fileID: 21300000, guid: 9c1011b676150c04aa61d59442d2de16, type: 3}
   m_sad: {fileID: 21300000, guid: 9c1011b676150c04aa61d59442d2de16, type: 3}
+  m_dialog:
+  - Oh hello, didn't see you there. Why you look like a good person. A good person
+    who wouldn't leave poor fellow traveler to die. You see I am starving and If
+    I don't get something to eat soon, why I just might die.
+  - You wouldn't want that now would you? All I need from you is a teeny tiny little
+    bittle thing. Your soul. What say you?
+  m_responseHappy: Wonderful! Sign here please. Aaaand thank you. Since you were
+    such a good sport here's my number. Call me if you require anything... unsavory.
+  m_responseSad: 
+  m_showNoButton: 0
 --- !u!1 &1466773220233465482
 GameObject:
   m_ObjectHideFlags: 0

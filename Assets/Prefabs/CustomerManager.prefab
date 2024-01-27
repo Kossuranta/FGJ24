@@ -50,11 +50,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_customers:
   - {fileID: -3085467415739297304, guid: c1479652c565fb44caba2badc0f4600e, type: 3}
-  - {fileID: -3085467415739297304, guid: c1479652c565fb44caba2badc0f4600e, type: 3}
-  - {fileID: -3085467415739297304, guid: c1479652c565fb44caba2badc0f4600e, type: 3}
-  - {fileID: -3085467415739297304, guid: c1479652c565fb44caba2badc0f4600e, type: 3}
-  - {fileID: -3085467415739297304, guid: c1479652c565fb44caba2badc0f4600e, type: 3}
+  - {fileID: -3085467415739297304, guid: 42c2525efa11782419dedf964f505008, type: 3}
+  - {fileID: -3085467415739297304, guid: 439952047e25047359703bdd6e13d61d, type: 3}
+  - {fileID: -3085467415739297304, guid: bdcff032664a44e33abfd68556822059, type: 3}
+  - {fileID: -3085467415739297304, guid: 1f5628a26560a4b8db415e0ba4de1737, type: 3}
+  - {fileID: -3085467415739297304, guid: 868a8cdfa51544af7a114f98cb9fb011, type: 3}
+  - {fileID: -3085467415739297304, guid: 7aee7bb2e55144863b7dc32e6c8a03e6, type: 3}
+  - {fileID: -3085467415739297304, guid: cc4948f59e88a46939e0d5d5dffc4b34, type: 3}
+  - {fileID: -3085467415739297304, guid: 8d56b4170660b48219c239478c717017, type: 3}
+  - {fileID: -3085467415739297304, guid: 6f6c1843c29684788a1af2cb2ce51373, type: 3}
+  - {fileID: -3085467415739297304, guid: 016c4b6048d08485a9b267dc4cce0905, type: 3}
+  - {fileID: -3085467415739297304, guid: f376557d7302d4349841af5c1a975f0e, type: 3}
+  - {fileID: -3085467415739297304, guid: 418ae5130e4cb471e8427754b5ca78ac, type: 3}
+  - {fileID: -3085467415739297304, guid: eb5df152f34503243bd1c13b533fa09e, type: 3}
+  - {fileID: -3085467415739297304, guid: 1b9182425ab4040269a6469bf7500fdd, type: 3}
+  - {fileID: -3085467415739297304, guid: 20225d77584944ad7b3f6c0476e601c2, type: 3}
+  m_bosses: []
   m_outOfScreenPos: {x: 2165, y: 650}
   m_customerPosition: {x: 826, y: 650}
+  m_bossPositions: []
   m_speed: 1
-  m_customerLeaveDelay: 3
