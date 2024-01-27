@@ -990,6 +990,7 @@ MonoBehaviour:
   m_deskManager: {fileID: 3514308944614870812}
   m_customerManager: {fileID: 7082736799094882023}
   m_recipes: {fileID: 11400000, guid: d999ee921cbb7b34986e65f819056e5d, type: 2}
+  m_ingredientSprites: {fileID: 11400000, guid: a467a3aed0257ac4287924b0d0a21c44, type: 2}
   m_day: 0
 --- !u!223 &4288283100312404066
 Canvas:

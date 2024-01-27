@@ -105,6 +105,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_recipeManager: {fileID: 4032186806422590078}
+  m_ingredientSlots:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1001 &924495431419565249
 PrefabInstance:
   m_ObjectHideFlags: 0

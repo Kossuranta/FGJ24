@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public CustomerManager m_customerManager;
 
     public Recipes m_recipes;
+    public IngredientSprites m_ingredientSprites;
 
     [NonSerialized]
     public readonly List<IngredientType> m_selectedIngredients = new(4);
@@ -62,10 +63,11 @@ public class GameManager : MonoBehaviour
         if (m_customer == null)
             return;
         
+        m_deskManager.SetIngredient(m_selectedIngredients.Count, _ingredient);
         m_selectedIngredients.Add(_ingredient);
         Debug.Log($"Added ingredient {_ingredient}");
         if (m_selectedIngredients.Count == 4)
-            BakeBun();
+            Invoke(nameof(BakeBun), 1);
     }
 
     private void BakeBun()
@@ -78,6 +80,7 @@ public class GameManager : MonoBehaviour
                 correctIngredients++;
         }
         m_selectedIngredients.Clear();
+        m_deskManager.ClearIngredients();
         
         Debug.Log($"Bake completed, success: {correctIngredients}/4");
         if (correctIngredients == 4)
