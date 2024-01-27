@@ -198,8 +198,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa0ed6834590418aab7def9058874da0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_minPos: {x: 550, y: 275}
-  m_maxPos: {x: 1400, y: 400}
+  m_minPos: {x: -100, y: 200}
+  m_maxPos: {x: 1500, y: 450}
   m_canvas: {fileID: 4288283100312404066}
   m_recipePrefab: {fileID: 4815851053618943891, guid: 0c530dc2b9eabab45a911f859c0f030e, type: 3}
   m_recipeSpawnPos: {x: 586, y: 388}
