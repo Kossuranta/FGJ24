@@ -3793,6 +3793,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -3085467415739297304, guid: fab5cad8d0b78c1428affd403cb8b332, type: 3}
     - target: {fileID: 1168170315560794828, guid: 74ab22c790adcbb4ab263c6a51cacd08, type: 3}
+      propertyPath: 'm_customers.Array.data[0]'
+      value: 
+      objectReference: {fileID: -3085467415739297304, guid: 42c2525efa11782419dedf964f505008, type: 3}
+    - target: {fileID: 1168170315560794828, guid: 74ab22c790adcbb4ab263c6a51cacd08, type: 3}
+      propertyPath: 'm_customers.Array.data[1]'
+      value: 
+      objectReference: {fileID: -3085467415739297304, guid: 42c2525efa11782419dedf964f505008, type: 3}
+    - target: {fileID: 1168170315560794828, guid: 74ab22c790adcbb4ab263c6a51cacd08, type: 3}
       propertyPath: m_bossPositions.Array.size
       value: 1
       objectReference: {fileID: 0}
