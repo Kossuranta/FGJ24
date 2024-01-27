@@ -2,23 +2,26 @@
 
 public class CustomerManager : MonoBehaviour
 {
+    public Customer[] m_customers;
+    
     public Vector2 m_outOfScreenPos;
     public Vector2 m_customerPosition;
-    public Customer m_customerPrefab;
     public float m_speed;
     
     private Customer m_customer;
     private Vector2 m_velocity;
     private float m_time;
+    private int m_index;
     
     public void Initialize()
     {
-        SpawnCustomer();
+        m_index = 0;
     }
 
-    private void SpawnCustomer()
+    public void NextCustomer()
     {
-        m_customer = Instantiate(m_customerPrefab, transform);
+        m_customer = Instantiate(m_customers[m_index], transform);
+        m_index++;
         m_customer.Initialize();
         m_time = 0;
     }
