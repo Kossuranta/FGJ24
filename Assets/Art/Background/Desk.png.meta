@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 79102f1960f864687bb1f9491e1f319a
+guid: 279c85b77ada34660b7d23118d97dab9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2662637789244212430
-    second: tausta_0
+      213: -1661269725853197392
+    second: poyta_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tausta_0
+      name: poyta_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 107
+        y: 0
         width: 1920
-        height: 973
+        height: 652
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23b3196b9096c0bd0800000000000000
-      internalID: -2662637789244212430
+      spriteID: 0bbd8627cfbf1f8e0800000000000000
+      internalID: -1661269725853197392
       vertices: []
       indices: 
       edges: []
@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      poyta_0: -1661269725853197392
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

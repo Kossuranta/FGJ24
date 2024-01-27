@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 279c85b77ada34660b7d23118d97dab9
+guid: 483dea82155c74105bc52a7fce19b713
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1661269725853197392
-    second: poyta_0
+      213: -5422338978878945811
+    second: taivas_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: poyta_0
+      name: taivas_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 588
         width: 1920
-        height: 652
+        height: 492
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bbd8627cfbf1f8e0800000000000000
-      internalID: -1661269725853197392
+      spriteID: de58a207d6bffb4b0800000000000000
+      internalID: -5422338978878945811
       vertices: []
       indices: 
       edges: []
@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      taivas_0: -5422338978878945811
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

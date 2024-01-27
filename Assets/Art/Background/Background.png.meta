@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 483dea82155c74105bc52a7fce19b713
+guid: 79102f1960f864687bb1f9491e1f319a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5422338978878945811
-    second: taivas_0
+      213: -2662637789244212430
+    second: tausta_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: taivas_0
+      name: tausta_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 588
+        y: 107
         width: 1920
-        height: 492
+        height: 973
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de58a207d6bffb4b0800000000000000
-      internalID: -5422338978878945811
+      spriteID: 23b3196b9096c0bd0800000000000000
+      internalID: -2662637789244212430
       vertices: []
       indices: 
       edges: []
@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tausta_0: -2662637789244212430
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
