@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7597087578419226603}
   - component: {fileID: -3085467415739297304}
   m_Layer: 5
-  m_Name: CustomerBossDay01
+  m_Name: CustomerMummo2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51,19 +51,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_image: {fileID: 4851656962272421990}
   m_rect: {fileID: 7597087578419226603}
-  m_order: 1
-  m_happy: {fileID: 21300000, guid: 2ace4b4703572ef4f892c9765587280b, type: 3}
-  m_sad: {fileID: 21300000, guid: 2ace4b4703572ef4f892c9765587280b, type: 3}
+  m_order: 4
+  m_happy: {fileID: 21300000, guid: 0af904e76dcb7e647a275727b83b492d, type: 3}
+  m_sad: {fileID: 21300000, guid: 889897ac2f468dc4f8b750af38530dd0, type: 3}
   m_dialog:
-  - 'Aight, listen up, greenhorn. I will only say this once. We are known as the
-    single greatest bakery in the whole gosh darn city, and you WILL uphold that
-    reputation, or I swear to God and Devil both you will never get another job in
-    this city ever again! '
-  - Now I hear you ask, "How have we achieved this impeccable reputation"? Simple!
-    We. Never. Say. NO!
-  - Do you understand? No matter what comes through that door, you will smile, nod,
-    and deliver whatever their heart desires! Do you understand?!
-  - Now get to work!!
+  - 
+  - 
+  - 
+  - 
   m_responseHappy: 
   m_responseSad: 
   m_showNoButton: 0
