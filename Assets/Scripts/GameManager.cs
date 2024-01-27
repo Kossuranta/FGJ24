@@ -124,12 +124,13 @@ public class GameManager : MonoBehaviour
     private void BakeSuccess()
     {
         m_currentCustomer.MakeHappy();
-        CustomerServed();
+        m_dialogBox.CustomerResponse(m_currentCustomer.m_responseHappy);
     }
 
     private void BakeFail()
     {
         m_currentCustomer.MakeSad();
-        CustomerServed();
+        m_dialogBox.CustomerResponse(m_currentCustomer.m_responseSad);
+        
     }
 }

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 
 public class CustomerManager : MonoBehaviour
@@ -9,7 +8,6 @@ public class CustomerManager : MonoBehaviour
     public Vector2 m_outOfScreenPos;
     public Vector2 m_customerPosition;
     public float m_speed;
-    public float m_customerLeaveDelay;
     
     private Customer m_customer;
     private Vector2 m_velocity;
@@ -22,9 +20,6 @@ public class CustomerManager : MonoBehaviour
 
     public void CustomerLeave()
     {
-        if (GameManager.Instance.m_currentCustomer == null)
-            return;
-        
         StartCoroutine(CustomerExit());
     }
 
@@ -53,14 +48,8 @@ public class CustomerManager : MonoBehaviour
     private IEnumerator CustomerExit()
     {
         GameManager.Instance.m_currentCustomer = null;
-        float time = 0;
-        while (time < m_customerLeaveDelay)
-        {
-            time += Time.deltaTime;
-            yield return 0;
-        }
 
-        time = 0;
+        float time = 0;
         while (time < 1)
         {
             time += Time.deltaTime * m_speed;

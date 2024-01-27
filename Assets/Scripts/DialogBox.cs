@@ -34,12 +34,26 @@ public class DialogBox : MonoBehaviour
     public void NextDialog()
     {
         string[] dialog = GameManager.Instance.m_currentCustomer.m_dialog;
-        string line = dialog[m_dialogIndex];
-        m_dialogIndex++;
-        m_dialogTextMesh.text = line;
+        if (m_dialogIndex == dialog.Length)
+        {
+            GameManager.Instance.CustomerServed();
+            gameObject.SetActive(false);
+        }
+        else
+        {
+            string line = dialog[m_dialogIndex];
+            m_dialogIndex++;
+            m_dialogTextMesh.text = line;
         
-        m_buttonYes.gameObject.SetActive(m_dialogIndex == dialog.Length);
-        m_buttonNo.gameObject.SetActive(m_dialogIndex == dialog.Length);
-        m_nextDialog.gameObject.SetActive(m_dialogIndex != dialog.Length);
+            m_buttonYes.gameObject.SetActive(m_dialogIndex == dialog.Length);
+            m_buttonNo.gameObject.SetActive(m_dialogIndex == dialog.Length);
+            m_nextDialog.gameObject.SetActive(m_dialogIndex != dialog.Length);
+        }
+    }
+
+    public void CustomerResponse(string _response)
+    {
+        m_dialogTextMesh.text = _response;
+        m_nextDialog.gameObject.SetActive(true);
     }
 }
