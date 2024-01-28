@@ -5,6 +5,7 @@ public class ButtonRunAway : MonoBehaviour, IPointerEnterHandler
 {
     public RectTransform m_gameObjectToMove;
     public float m_speed;
+    public AudioClip m_audioClip;
 
     private Vector2 m_targetPosition;
     private Vector2 m_startPosition;
@@ -25,6 +26,7 @@ public class ButtonRunAway : MonoBehaviour, IPointerEnterHandler
         }
         
         m_time = 0;
+        GameManager.Instance.PlayEffect(m_audioClip);
     }
 
     private void Update()

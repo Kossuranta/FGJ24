@@ -52,6 +52,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_gameObjectToMove: {fileID: 905063075793067942}
   m_speed: 5.5
+  m_audioClip: {fileID: 8300000, guid: 1cc69d182fb247b418634d2228f2f52d, type: 3}
 --- !u!222 &8277707499705356686
 CanvasRenderer:
   m_ObjectHideFlags: 0
