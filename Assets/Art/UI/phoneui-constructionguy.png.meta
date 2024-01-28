@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      phoneui-constructionguy_0: -221252391067762546
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

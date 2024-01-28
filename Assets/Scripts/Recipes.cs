@@ -34,6 +34,7 @@ public class RecipeData
     public RecipeType m_type;
     public Sprite m_sprite;
     public IngredientType[] m_ingredients;
+    public bool m_generateRecipe;
     
     public void UpdateName()
     {

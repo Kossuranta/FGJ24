@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      phoneui-generalstore-active_0: -5737511863862663628
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

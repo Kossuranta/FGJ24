@@ -100,6 +100,7 @@ public class DeskManager : MonoBehaviour
             yield return 0;
         }
         
+        m_mixer.StopMixer();
         ResetIngredients();
         GameManager.Instance.MixingCompleted();
     }
