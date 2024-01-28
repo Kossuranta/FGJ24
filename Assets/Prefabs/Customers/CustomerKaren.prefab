@@ -58,9 +58,10 @@ MonoBehaviour:
   m_dialog:
   - Karelian pie. On the go. now. Hurry up. I don't have all day. What's taking so
     long? Hurry up!
-  - You're just the worst, aren't you?
+  - I actually work a really important job unlike you, so my time is valuable...
+    Just make me a simple karelian pie and be done with it.
   m_responseHappy: Hmph, finally.
-  m_responseSad: This is not what I asked for! No tip for you.
+  m_responseSad: This is not what I asked for! I need to talk to your manager!
   m_showNoButton: 1
   m_moveDuration: 1
   m_customNoButton: {fileID: 0}
