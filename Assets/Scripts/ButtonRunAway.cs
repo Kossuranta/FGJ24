@@ -1,11 +1,14 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class ButtonRunAway : MonoBehaviour, IPointerEnterHandler
 {
     public RectTransform m_gameObjectToMove;
     public float m_speed;
     public AudioClip m_audioClip;
+    public Sprite[] m_sprites;
+    public Image m_image;
 
     private Vector2 m_targetPosition;
     private Vector2 m_startPosition;
@@ -27,6 +30,8 @@ public class ButtonRunAway : MonoBehaviour, IPointerEnterHandler
         
         m_time = 0;
         GameManager.Instance.PlayEffect(m_audioClip);
+        if (m_sprites.Length > 0)
+            m_image.sprite = m_sprites[Random.Range(0, m_sprites.Length)];
     }
 
     private void Update()

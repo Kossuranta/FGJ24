@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8277707499705356686}
   - component: {fileID: 6128928719051537370}
   m_Layer: 5
-  m_Name: ButtonRunningRandomly
+  m_Name: ButtonRunningRandomlyChangingSprites
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52,8 +52,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_gameObjectToMove: {fileID: 905063075793067942}
   m_speed: 5.5
-  m_audioClip: {fileID: 8300000, guid: 1cc69d182fb247b418634d2228f2f52d, type: 3}
-  m_sprites: []
+  m_audioClip: {fileID: 8300000, guid: 3fb8fefb5d4acf1489d3d76cb26ff578, type: 3}
+  m_sprites:
+  - {fileID: 5756222782022445450, guid: d1d3c2e326639e047abcd7319d503cb6, type: 3}
+  - {fileID: -5050617795994037114, guid: 44a5dd643942240c2864cf3580faacee, type: 3}
+  - {fileID: -3380512632288914527, guid: 1d3d1eea9ff454d789aa537b40e7e01e, type: 3}
+  - {fileID: 2900777994421525581, guid: 4a2b1ad1e394e4a65aeb88026d93396b, type: 3}
   m_image: {fileID: 6128928719051537370}
 --- !u!222 &8277707499705356686
 CanvasRenderer:
