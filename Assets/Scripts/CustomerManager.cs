@@ -48,7 +48,7 @@ public class CustomerManager : MonoBehaviour
         
         StartCoroutine(CustomerEnter());
         
-        if (m_customer.m_order != RecipeType.None)
+        if (m_customer.m_order != RecipeType.None && !m_customer.transform.name.Contains("Me"))
             GameManager.Instance.PlayEffect(m_customerEnter);
         
         if (m_customer.m_playAmbulanceInBackground)
