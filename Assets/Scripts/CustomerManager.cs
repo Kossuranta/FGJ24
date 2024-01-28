@@ -16,7 +16,6 @@ public class CustomerManager : MonoBehaviour
     public Customer m_boss;
     [NonSerialized]
     public int m_bossIndex;
-    private int m_bossPosIndex;
     private Customer m_customer;
     private Vector2 m_velocity;
     [NonSerialized]
@@ -26,7 +25,6 @@ public class CustomerManager : MonoBehaviour
     {
         m_customerIndex = 0;
         m_bossIndex = 0;
-        m_bossPosIndex = 0;
     }
 
     public void CustomerLeave()
@@ -38,6 +36,11 @@ public class CustomerManager : MonoBehaviour
 
     public void NextCustomer()
     {
+        if (m_customerIndex >= m_customers.Length)
+        {
+            GameManager.Instance.EndGame();
+            return;
+        }
         m_customer = Instantiate(m_customers[m_customerIndex], transform);
         m_customer.Initialize();
         m_customerIndex++;
@@ -100,7 +103,7 @@ public class CustomerManager : MonoBehaviour
     private IEnumerator BossEnter()
     {
         float time = 0;
-        PositionPair pos = m_bossPositions[m_bossPosIndex];
+        PositionPair pos = m_bossPositions[m_bossIndex - 1];
         m_boss.m_rect.localRotation = Quaternion.Euler(0, 0, pos.m_rotation);
         while (time < 1)
         {
@@ -115,8 +118,7 @@ public class CustomerManager : MonoBehaviour
     private IEnumerator BossExit()
     {
         float time = 0;
-        PositionPair pos = m_bossPositions[m_bossPosIndex];
-        m_bossPosIndex++;
+        PositionPair pos = m_bossPositions[m_bossIndex - 1];
         while (time < 1)
         {
             time += Time.deltaTime / m_boss.m_moveDuration;

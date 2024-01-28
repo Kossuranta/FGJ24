@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -71,6 +72,11 @@ public class GameManager : MonoBehaviour
         StartDay(0);
     }
 
+    public void EndGame()
+    {
+        SceneManager.LoadScene("EndCredits");
+    }
+
     public void StartDay(int _day)
     {
         m_currentOrder = RecipeType.None;
@@ -85,6 +91,9 @@ public class GameManager : MonoBehaviour
             m_customerManager.CustomerLeave();
             return;
         }
+
+        if (m_currentCustomer.m_order == RecipeType.KarelianPie)
+            m_customerManager.m_bossIndex = 1;
         
         if (m_currentOrder == RecipeType.None)
         {
