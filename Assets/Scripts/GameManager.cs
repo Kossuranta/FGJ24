@@ -20,6 +20,7 @@ public class GameManager : MonoBehaviour
     public AudioSource m_customerAudio;
     public AudioSource m_backgroundAudio;
     public AudioSource m_truckAudio;
+    public AudioSource m_effectAudio;
 
     [NonSerialized]
     public readonly List<IngredientType> m_selectedIngredients = new(4);
@@ -228,5 +229,10 @@ public class GameManager : MonoBehaviour
     public void ClosePhone()
     {
         m_phoneScreen.gameObject.SetActive(false);
+    }
+
+    public void PlayEffect(AudioClip _clip)
+    {
+        m_effectAudio.PlayOneShot(_clip);
     }
 }

@@ -80,3 +80,4 @@ MonoBehaviour:
     m_targetPos: {x: 796, y: -130}
     m_rotation: 90
   m_day2BossParent: {fileID: 0}
+  m_customerEnter: {fileID: 8300000, guid: bd48d518fbcc62c4f916d0b961a719c2, type: 3}

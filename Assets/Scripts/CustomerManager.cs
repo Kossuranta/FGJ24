@@ -11,6 +11,7 @@ public class CustomerManager : MonoBehaviour
     public Vector2 m_customerPosition;
     public PositionPair[] m_bossPositions;
     public Transform m_day2BossParent;
+    public AudioClip m_customerEnter;
 
     [NonSerialized]
     public Customer m_boss;
@@ -44,6 +45,8 @@ public class CustomerManager : MonoBehaviour
         m_customer = Instantiate(m_customers[m_customerIndex], transform);
         m_customer.Initialize();
         m_customerIndex++;
+        if (m_customer.m_order != RecipeType.None)
+            GameManager.Instance.PlayEffect(m_customerEnter);
         StartCoroutine(CustomerEnter());
     }
 

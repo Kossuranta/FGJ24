@@ -51,7 +51,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_image: {fileID: 4851656962272421990}
   m_rect: {fileID: 7597087578419226603}
-  m_order: 16
+  m_order: 0
   m_audio: {fileID: 8300000, guid: 142faf96c6215f84fbd1182242f44b3c, type: 3}
   m_happy: {fileID: -2815192832593184278, guid: f7ec39bf816324c76b7a1669b3140426, type: 3}
   m_sad: {fileID: -2815192832593184278, guid: f7ec39bf816324c76b7a1669b3140426, type: 3}
@@ -59,7 +59,7 @@ MonoBehaviour:
   - (Okay, here we go. First day at a new job. I hope things go well.)
   - (Bah, what am I saying? Of course they will! I mean how hard can baking a few
     buns really be?)
-  - (I better try to make something out of these recipies to test my skills!))
+  - (I better try to make something out of these recipies to test my skills!)
   m_responseHappy: (Quite good!)
   m_responseSad: (Surprisingly okay...)
   m_showNoButton: 0
