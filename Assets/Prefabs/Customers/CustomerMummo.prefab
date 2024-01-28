@@ -69,9 +69,8 @@ MonoBehaviour:
   m_responseSad: Oh, this tastes a bit different than I remembered... but that's
     all right dear, I'm sure you tried your best.
   m_showNoButton: 0
-  m_moveDuration: 0.1
-  m_playAmbulanceInBackground: 0
-  m_customNoButton: {fileID: 3167259072040899317, guid: 5577be53f7f0679459411be1a73ad8a1, type: 3}
+  m_moveDuration: 10
+  m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:
   m_ObjectHideFlags: 0

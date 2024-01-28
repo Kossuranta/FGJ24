@@ -51,7 +51,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_image: {fileID: 4851656962272421990}
   m_rect: {fileID: 7597087578419226603}
-  m_order: 0
+  m_order: 16
   m_audio: {fileID: 0}
   m_happy: {fileID: -2815192832593184278, guid: f7ec39bf816324c76b7a1669b3140426, type: 3}
   m_sad: {fileID: -2815192832593184278, guid: f7ec39bf816324c76b7a1669b3140426, type: 3}
@@ -64,7 +64,6 @@ MonoBehaviour:
   m_responseSad: (Surprisingly okay...)
   m_showNoButton: 0
   m_moveDuration: 0.2
-  m_playAmbulanceInBackground: 0
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:
