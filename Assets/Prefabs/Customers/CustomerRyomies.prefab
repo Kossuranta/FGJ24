@@ -57,12 +57,13 @@ MonoBehaviour:
   m_sad: {fileID: -2815192832593184278, guid: f7ec39bf816324c76b7a1669b3140426, type: 3}
   m_dialog:
   - You would not belive the day I've had! I've been attacked by not one, not two
-    but three different dogs! I've had it! I have decided to officically join CatsArePoggers-cult
-    and to do that I need to prove my dedication by eating a dog. A hot dog.
+    but three different dogs!
+  - I've had it! I have decided to officically join CatsArePoggers-cult and to do
+    that I need to prove my dedication by eating a dog. A hot dog.
   m_responseHappy: Muahahahahhaaa! My ascension is complete!
   m_responseSad: No! Don't you see this is how the dogs win!
   m_showNoButton: 0
-  m_moveDuration: 1
+  m_moveDuration: 2
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:

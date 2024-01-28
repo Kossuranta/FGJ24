@@ -64,7 +64,7 @@ MonoBehaviour:
   m_responseHappy: May your catnip patch be ever plentiful
   m_responseSad: So you have chosen... Death
   m_showNoButton: 0
-  m_moveDuration: 1
+  m_moveDuration: 2
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:

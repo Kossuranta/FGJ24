@@ -64,7 +64,7 @@ MonoBehaviour:
     memories of my old nan.
   m_responseSad: No... this isn't it dear.
   m_showNoButton: 0
-  m_moveDuration: 1
+  m_moveDuration: 10.2
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:

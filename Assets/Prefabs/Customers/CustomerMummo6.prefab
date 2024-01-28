@@ -62,7 +62,7 @@ MonoBehaviour:
     take these. I think you need them more than me.
   m_responseSad: 
   m_showNoButton: 0
-  m_moveDuration: 1
+  m_moveDuration: 11
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:

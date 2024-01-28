@@ -65,7 +65,7 @@ MonoBehaviour:
     am I saying, of course I did.
   m_responseSad: Oh it's ok dear. Baking is difficult, don't be too hard on yourself
   m_showNoButton: 0
-  m_moveDuration: 1
+  m_moveDuration: 10.4
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:
