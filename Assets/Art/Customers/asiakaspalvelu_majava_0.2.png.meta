@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      asiakaspalvelu_majava_0.2_0: 8897664497650290217
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
