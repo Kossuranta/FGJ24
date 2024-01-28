@@ -20,6 +20,7 @@ public class RecipeManager : MonoBehaviour
     public void GenerateRecipes(int _day)
     {
         RecipeData[] recipes = GameManager.Instance.m_recipes.m_recipes;
+        Helper.Shuffle(recipes);
         for (int i = 0; i < recipes.Length; i++)
         {
             Recipe r = Instantiate(m_recipePrefab, transform);
