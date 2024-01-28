@@ -51,23 +51,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_image: {fileID: 4851656962272421990}
   m_rect: {fileID: 7597087578419226603}
-  m_order: 0
+  m_order: 16
   m_audio: {fileID: 8300000, guid: ce01d1b41c04b8f44b9d7fd218307bfa, type: 3}
   m_happy: {fileID: 6086621557874169523, guid: 5b5ca6bdf0124462aab747261e2c530d, type: 3}
   m_sad: {fileID: 6086621557874169523, guid: 5b5ca6bdf0124462aab747261e2c530d, type: 3}
   m_dialog:
-  - Hey sweet tits show me some of that nice ass will ya! Bwahahhaahh. Kidding kidding,
+  - Hey sweet tits, show me some of that nice ass will ya! Bwahahhaahh. Kidding kidding,
     can't you take a joke?
-  - Bwaahahhaa Don't be such a stuck up. You'd be prettier if you smiled. Bah you're
-    no fun. Well since I can't get between YOUR buns I'll have freshly baked bun
-    with your underwear baked into it!
+  - Bwaahahhaa! Don't be such a stuck up. You'd be prettier if you smiled. Bah, you're
+    no fun. Well since I can't get between YOUR buns I'll have freshly baked pink
+    bun with your UNDEWEAR baked into it!
   m_responseHappy: Sniiiiiiiiiiiiiiif Ahhhhhhh that's the stuff
   m_responseSad: You suck! And not in the good kind of way!
   m_showNoButton: 0
   m_moveDuration: 2
   m_playAmbulanceInBackground: 0
   m_isSatan: 0
-  m_customNoButton: {fileID: 0}
+  m_customNoButton: {fileID: 3167259072040899317, guid: 13476482e62ed1940891459cb4d61e2e, type: 3}
 --- !u!1 &1466773220233465482
 GameObject:
   m_ObjectHideFlags: 0

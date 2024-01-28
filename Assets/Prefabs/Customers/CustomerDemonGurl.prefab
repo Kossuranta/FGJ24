@@ -56,12 +56,12 @@ MonoBehaviour:
   m_happy: {fileID: 2746351807020714801, guid: b0d0ea4b3acc91a42a96f511c329e144, type: 3}
   m_sad: {fileID: 2746351807020714801, guid: b0d0ea4b3acc91a42a96f511c329e144, type: 3}
   m_dialog:
-  - 'Hiiii! This shop is, like sooo cute! My BFF to be Satan like totally recommended
+  - 'Hiiii! This shop is, like sooo cute! My BFF, Satan, like totally recommended
     this place! Hey now that I''m here could you like give me his number as well? '
-  - No no no forget I said anything. It's... stupid or something...  Ugh I need to
-    get drunk. Giveive me the satanichouse drink. Oh but not regural milk! I'm allergic
-  m_responseHappy: O M S You're like so good!
-  m_responseSad: Ewwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+  - No, no, no forget I said anything. It's... stupid, or something...  Ugh, I need
+    to get drunk. Give me a drink fit for me. Milky, but no lactose!
+  m_responseHappy: O M S!! You're like so good!
+  m_responseSad: Ewwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww....
   m_showNoButton: 0
   m_moveDuration: 1
   m_playAmbulanceInBackground: 0

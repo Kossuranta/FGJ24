@@ -56,17 +56,18 @@ MonoBehaviour:
   m_happy: {fileID: 21300000, guid: 0af904e76dcb7e647a275727b83b492d, type: 3}
   m_sad: {fileID: 21300000, guid: 889897ac2f468dc4f8b750af38530dd0, type: 3}
   m_dialog:
-  - Oh hello dear. Horrible weather don't you agree?
+  - Hello dear. Horrible weather don't you agree?
   - 'You really are great listener dear. But have you heard the breaking news? It''s
     my birthday! Happy birthday me! Could I have the greatest birthday cake? '
-  - Just remember the words I always tell you "Baking powder ruins a good cake, milk
-    shouldn't even enter the room and sugar just pisses on everything" Words of MY
-    aunt if you can belive it.
+  - 'Just remember the words I always tell you. But I thought of something new: "Too
+    much sugar makes me SALTY!" Words of my grandkid, whatever it means.'
   m_responseHappy: Oh this is just heavenly! It really brings me back to all those
     crazy parties at my aunts place. Oh she was such a wild soul, bless her heart.
-  m_responseSad: I'm so sorry dear, but this does not spark any joy
+  m_responseSad: I'm so sorry dear, but this does not spark any joy.
   m_showNoButton: 0
   m_moveDuration: 10.6
+  m_playAmbulanceInBackground: 0
+  m_isSatan: 0
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:

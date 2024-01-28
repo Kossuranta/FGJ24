@@ -58,8 +58,8 @@ MonoBehaviour:
   m_dialog:
   - Oh hello dear. You wouldn't belive it. It's my birthday! Happy birthday me! Could
     I have the greatest birthday cake?
-  - 'Just remember the words I tell you: "Baking powder ruins a good cake and MILK
-    is too flavourful!" Words from my dear old father.'
+  - 'Just remember the words I told you before and this: "MILK is too flavourful!"
+    Words from my dear old father.'
   m_responseHappy: Oh this is just lovely. Did I tell you already how my father use
     to hide old cakes up his sleeve, so he could bring them back home to us. Oh what
     am I saying, of course I did.
