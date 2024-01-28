@@ -45,9 +45,14 @@ public class CustomerManager : MonoBehaviour
         m_customer = Instantiate(m_customers[m_customerIndex], transform);
         m_customer.Initialize();
         m_customerIndex++;
+        
+        StartCoroutine(CustomerEnter());
+        
         if (m_customer.m_order != RecipeType.None)
             GameManager.Instance.PlayEffect(m_customerEnter);
-        StartCoroutine(CustomerEnter());
+        
+        if (m_customer.m_playAmbulanceInBackground)
+            GameManager.Instance.m_vehicleManager.SpawnAmbulance();
     }
 
     public void ShowBoss()

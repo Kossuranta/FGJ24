@@ -65,6 +65,7 @@ MonoBehaviour:
   m_responseSad: No... this isn't it dear.
   m_showNoButton: 0
   m_moveDuration: 10.2
+  m_playAmbulanceInBackground: 1
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:

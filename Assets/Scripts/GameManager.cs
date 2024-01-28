@@ -188,8 +188,6 @@ public class GameManager : MonoBehaviour
     public void CustomerLeft()
     {
         m_customerManager.NextCustomer();
-        if (m_customerManager.m_customerIndex == 4)
-            m_vehicleManager.SpawnAmbulance();
     }
 
     public void MixingCompleted()
