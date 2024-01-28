@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      asiakaspalvelu_paholainen_0.2_0: 2275355132564518992
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      asiakaspalvelu_tyomies_0.2_0: -2815192832593184278
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

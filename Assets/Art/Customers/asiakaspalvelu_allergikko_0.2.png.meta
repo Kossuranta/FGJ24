@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      asiakaspalvelu_allergikko_0.2_0: -6930931822620003021
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

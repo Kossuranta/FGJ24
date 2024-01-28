@@ -46,7 +46,6 @@ public enum RecipeType
     BirthdayCakeDay2 = 4,
     HotDog = 5,
     BirthdayCakeDay3 = 6,
-    Underwear = 7,
     SawDustBun = 8,
     BirthdayCakeDay4 = 9,
     SadMeal = 10,

@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      asiakaspalvelu_pervo_0.2_0: 6086621557874169523
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
