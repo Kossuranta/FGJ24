@@ -21,6 +21,11 @@ public class GameManager : MonoBehaviour
     public AudioSource m_customerAudio;
     public AudioSource m_effectAudio;
 
+    public AudioClip m_startGameClip;
+    public AudioClip m_buttonYesClip;
+    public AudioClip m_buttonNoClip;
+    public AudioClip m_ingredientClip;
+
     [NonSerialized]
     public readonly List<IngredientType> m_selectedIngredients = new(4);
 
@@ -70,6 +75,7 @@ public class GameManager : MonoBehaviour
         
         ClosePhone();
         StartDay(0);
+        PlayEffect(m_startGameClip);
     }
 
     private void Update()
@@ -94,6 +100,7 @@ public class GameManager : MonoBehaviour
 
     public void OnButtonYes()
     {
+        PlayEffect(m_buttonYesClip);
         if (m_currentCustomer.m_order == RecipeType.None)
         {
             m_customerManager.CustomerLeave();
@@ -119,6 +126,7 @@ public class GameManager : MonoBehaviour
 
     public void OnButtonNo()
     {
+        PlayEffect(m_buttonNoClip);
         ShowNextBoss();
     }
 
@@ -154,6 +162,7 @@ public class GameManager : MonoBehaviour
         if (m_currentOrder == RecipeType.None)
             return;
         
+        PlayEffect(m_ingredientClip);
         m_deskManager.SetIngredient(m_selectedIngredients.Count, _ingredient);
         m_selectedIngredients.Add(_ingredient);
         Debug.Log($"Added ingredient {_ingredient}");

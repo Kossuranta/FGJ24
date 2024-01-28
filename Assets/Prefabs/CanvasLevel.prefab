@@ -733,6 +733,10 @@ MonoBehaviour:
   m_ingredientSprites: {fileID: 11400000, guid: a467a3aed0257ac4287924b0d0a21c44, type: 2}
   m_customerAudio: {fileID: 676517685388654546}
   m_effectAudio: {fileID: 1577762435892984448}
+  m_startGameClip: {fileID: 8300000, guid: 952a971960538ea44b6b05f3b36960f8, type: 3}
+  m_buttonYesClip: {fileID: 8300000, guid: 664d7ada8fa99d54faa053271a6a88a5, type: 3}
+  m_buttonNoClip: {fileID: 8300000, guid: aa97cb4818fecae49ad75cf720e10b2a, type: 3}
+  m_ingredientClip: {fileID: 8300000, guid: 5729ee7563518df40959e82d636ac704, type: 3}
 --- !u!223 &4288283100312404066
 Canvas:
   m_ObjectHideFlags: 0
