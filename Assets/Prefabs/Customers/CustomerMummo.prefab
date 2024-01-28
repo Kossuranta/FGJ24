@@ -69,7 +69,7 @@ MonoBehaviour:
   m_responseSad: Oh, this tastes a bit different than I remembered... but that's
     all right dear, I'm sure you tried your best.
   m_showNoButton: 0
-  m_moveDuration: 13.65
+  m_moveDuration: 10
   m_playAmbulanceInBackground: 0
   m_isSatan: 0
   m_customNoButton: {fileID: 0}

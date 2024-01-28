@@ -58,14 +58,16 @@ MonoBehaviour:
   m_dialog:
   - Oh hello dear. You wouldn't belive it. It's my birthday! Happy birthday me! Could
     I have the greatest birthday cake?
-  - Just remember the words I always tell you "Baking powder ruins a good cake and
-    milk shouldn't even enter the room" Words from MY father if you can belive it
+  - 'Just remember the words I tell you: "Baking powder ruins a good cake and MILK
+    is too flavourful!" Words from my dear old father.'
   m_responseHappy: Oh this is just lovely. Did I tell you already how my father use
     to hide old cakes up his sleeve, so he could bring them back home to us. Oh what
     am I saying, of course I did.
-  m_responseSad: Oh it's ok dear. Baking is difficult, don't be too hard on yourself
+  m_responseSad: Oh it's ok dear. Baking is difficult, don't be too hard on yourself.
   m_showNoButton: 0
   m_moveDuration: 10.4
+  m_playAmbulanceInBackground: 0
+  m_isSatan: 0
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:

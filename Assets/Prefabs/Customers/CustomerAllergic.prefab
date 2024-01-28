@@ -63,10 +63,12 @@ MonoBehaviour:
   - Let's start simple, though. I'll have a bun without milk, please. It gives me
     such gas, that I'm technically classified as a chemical weapon.
   m_responseHappy: Mmmmmm juuuuuuust perfect! And remember! NO MILK!
-  m_responseSad: Ohdear, ohdear, ohdear, there was milk in it wasn't there! I need
-    to get out of the city before I blow!
+  m_responseSad: Ohdear, ohdear, ohdear, there was something you did wrong, wasn't
+    there?! I need to get out of the city before I blow!
   m_showNoButton: 0
   m_moveDuration: 2
+  m_playAmbulanceInBackground: 0
+  m_isSatan: 0
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:

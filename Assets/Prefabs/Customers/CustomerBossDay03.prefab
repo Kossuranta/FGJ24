@@ -56,12 +56,16 @@ MonoBehaviour:
   m_happy: {fileID: 21300000, guid: 2ace4b4703572ef4f892c9765587280b, type: 3}
   m_sad: {fileID: 21300000, guid: 2ace4b4703572ef4f892c9765587280b, type: 3}
   m_dialog:
-  - Catch! Why doest thou think so little of me. Of course I have people who can
-    deliver anything our clients can think of. Call them. Just dont order too much!
+  - Catch! Do not even think about refusing this order! Of course I have people who
+    can deliver anything our clients, anything they can think of. Call them.
+  - Just do NOT order things you do not need. Unnecessary purchases will be reduced
+    from your salary.
   m_responseHappy: 
   m_responseSad: 
   m_showNoButton: 0
   m_moveDuration: 1
+  m_playAmbulanceInBackground: 0
+  m_isSatan: 0
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:
