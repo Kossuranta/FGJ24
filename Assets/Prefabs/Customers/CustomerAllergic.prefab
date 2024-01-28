@@ -51,7 +51,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_image: {fileID: 4851656962272421990}
   m_rect: {fileID: 7597087578419226603}
-  m_order: 2
+  m_order: 17
   m_audio: {fileID: 8300000, guid: 52a64dcd0ad48fc46b628bda1e3e762c, type: 3}
   m_happy: {fileID: -6930931822620003021, guid: 595c29be5f7354e5dbe1389d9f823498, type: 3}
   m_sad: {fileID: -6930931822620003021, guid: 595c29be5f7354e5dbe1389d9f823498, type: 3}
