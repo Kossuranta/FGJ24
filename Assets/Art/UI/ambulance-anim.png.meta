@@ -154,7 +154,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ambulance-anim_0: 8566613848887034956
+      ambulance-anim_1: -6427413664054703160
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
