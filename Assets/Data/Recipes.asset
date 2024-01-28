@@ -13,83 +13,83 @@ MonoBehaviour:
   m_Name: Recipes
   m_EditorClassIdentifier: 
   m_recipes:
-  - m_name: SaltyBun
-    m_type: 18
-    m_sprite: {fileID: 907229631269249807, guid: e002c784d686442aea80fbd3b77a0b8d, type: 3}
-    m_ingredients: 01000000050000000400000003000000
-    m_generateRecipe: 1
   - m_name: BirthdayCakeDay3
     m_type: 6
     m_sprite: {fileID: -8308282141909669963, guid: b46b20aa58b174c6b86f5f4c2585f7f8, type: 3}
     m_ingredients: 0100000007000000040000000a000000
-    m_generateRecipe: 0
-  - m_name: BirthdayCakeDay4
-    m_type: 9
-    m_sprite: {fileID: -8308282141909669963, guid: b46b20aa58b174c6b86f5f4c2585f7f8, type: 3}
-    m_ingredients: 0100000007000000050000000a000000
-    m_generateRecipe: 0
-  - m_name: DallasBun
-    m_type: 17
-    m_sprite: {fileID: 907229631269249807, guid: e002c784d686442aea80fbd3b77a0b8d, type: 3}
-    m_ingredients: 09000000010000000300000002000000
-    m_generateRecipe: 1
-  - m_name: HotDog
-    m_type: 5
-    m_sprite: {fileID: -8136687892822089223, guid: afd5c59ea98904212b5f1518a2cb849c, type: 3}
-    m_ingredients: 6400000001000000070000000a000000
-    m_generateRecipe: 0
-  - m_name: KarelianPie
-    m_type: 3
-    m_sprite: {fileID: -7753929068036138348, guid: 39f37e383a4ab415d9affd5e981afbb3, type: 3}
-    m_ingredients: 05000000010000000200000008000000
-    m_generateRecipe: 1
-  - m_name: BirthdayCakeDay1
-    m_type: 1
-    m_sprite: {fileID: -8308282141909669963, guid: b46b20aa58b174c6b86f5f4c2585f7f8, type: 3}
-    m_ingredients: 01000000060000000400000002000000
-    m_generateRecipe: 1
-  - m_name: ColdDog
-    m_type: 13
-    m_sprite: {fileID: -2497729792124443356, guid: 5e3d78e5a8e444b3c942e892ec9c3c37, type: 3}
-    m_ingredients: 01000000070000000a00000093010000
-    m_generateRecipe: 0
-  - m_name: SawDustBun
-    m_type: 8
-    m_sprite: {fileID: 907229631269249807, guid: e002c784d686442aea80fbd3b77a0b8d, type: 3}
-    m_ingredients: c8000000040000000300000007000000
-    m_generateRecipe: 0
-  - m_name: BunSoyMilk
-    m_type: 2
-    m_sprite: {fileID: 649210795468277922, guid: 6ffd27540f3ce4f7f8ef14a6835659d9, type: 3}
-    m_ingredients: 66000000060000000400000001000000
-    m_generateRecipe: 0
-  - m_name: SweetBun
-    m_type: 16
-    m_sprite: {fileID: 649210795468277922, guid: 6ffd27540f3ce4f7f8ef14a6835659d9, type: 3}
-    m_ingredients: 01000000040000000700000002000000
-    m_generateRecipe: 1
-  - m_name: DevilBun
-    m_type: 12
-    m_sprite: {fileID: -3569756055293657213, guid: ff1f8be11dda74d939690892ef1b3d1f, type: 3}
-    m_ingredients: 92010000050000000a0000002d010000
     m_generateRecipe: 0
   - m_name: BirthdayCakeDay5
     m_type: 11
     m_sprite: {fileID: -8308282141909669963, guid: b46b20aa58b174c6b86f5f4c2585f7f8, type: 3}
     m_ingredients: 2e01000007000000050000000a000000
     m_generateRecipe: 0
-  - m_name: SadMeal
-    m_type: 10
-    m_sprite: {fileID: -3682069622113636390, guid: 6a3a201c9e35a420ea8c900c18604db6, type: 3}
-    m_ingredients: ca0000002f0100002e01000064000000
+  - m_name: DallasBun
+    m_type: 17
+    m_sprite: {fileID: 649210795468277922, guid: 6ffd27540f3ce4f7f8ef14a6835659d9, type: 3}
+    m_ingredients: 0900000001000000060000000a000000
+    m_generateRecipe: 1
+  - m_name: Bread
+    m_type: 15
+    m_sprite: {fileID: -8136687892822089223, guid: afd5c59ea98904212b5f1518a2cb849c, type: 3}
+    m_ingredients: 07000000010000000a00000003000000
+    m_generateRecipe: 0
+  - m_name: SawDustBun
+    m_type: 8
+    m_sprite: {fileID: 907229631269249807, guid: e002c784d686442aea80fbd3b77a0b8d, type: 3}
+    m_ingredients: c8000000040000000300000007000000
+    m_generateRecipe: 0
+  - m_name: DevilBun
+    m_type: 12
+    m_sprite: {fileID: 1112329391927958410, guid: 9d6f5706795604f4d92e951cb81d8ce9, type: 3}
+    m_ingredients: 92010000050000000a0000002d010000
     m_generateRecipe: 0
   - m_name: BirthdayCakeDay2
     m_type: 4
     m_sprite: {fileID: -8308282141909669963, guid: b46b20aa58b174c6b86f5f4c2585f7f8, type: 3}
     m_ingredients: 01000000070000000400000002000000
     m_generateRecipe: 0
-  - m_name: Bread
-    m_type: 15
+  - m_name: ColdDog
+    m_type: 13
+    m_sprite: {fileID: -2497729792124443356, guid: 5e3d78e5a8e444b3c942e892ec9c3c37, type: 3}
+    m_ingredients: 01000000070000000a00000093010000
+    m_generateRecipe: 0
+  - m_name: SadMeal
+    m_type: 10
+    m_sprite: {fileID: -3682069622113636390, guid: 6a3a201c9e35a420ea8c900c18604db6, type: 3}
+    m_ingredients: ca0000002f0100002e01000064000000
+    m_generateRecipe: 0
+  - m_name: BirthdayCakeDay1
+    m_type: 1
+    m_sprite: {fileID: -8308282141909669963, guid: b46b20aa58b174c6b86f5f4c2585f7f8, type: 3}
+    m_ingredients: 01000000060000000400000002000000
+    m_generateRecipe: 1
+  - m_name: BunSoyMilk
+    m_type: 2
+    m_sprite: {fileID: 649210795468277922, guid: 6ffd27540f3ce4f7f8ef14a6835659d9, type: 3}
+    m_ingredients: 66000000060000000400000001000000
+    m_generateRecipe: 0
+  - m_name: HotDog
+    m_type: 5
     m_sprite: {fileID: -8136687892822089223, guid: afd5c59ea98904212b5f1518a2cb849c, type: 3}
-    m_ingredients: 07000000010000000a00000003000000
+    m_ingredients: 6400000001000000070000000a000000
+    m_generateRecipe: 1
+  - m_name: SaltyBun
+    m_type: 18
+    m_sprite: {fileID: 7790998481412912861, guid: 3dd8b20d094b54751b1c3c1de62e1c75, type: 3}
+    m_ingredients: 01000000050000000400000003000000
+    m_generateRecipe: 0
+  - m_name: KarelianPie
+    m_type: 3
+    m_sprite: {fileID: -7753929068036138348, guid: 39f37e383a4ab415d9affd5e981afbb3, type: 3}
+    m_ingredients: 05000000010000000200000008000000
+    m_generateRecipe: 1
+  - m_name: BirthdayCakeDay4
+    m_type: 9
+    m_sprite: {fileID: -8308282141909669963, guid: b46b20aa58b174c6b86f5f4c2585f7f8, type: 3}
+    m_ingredients: 0100000007000000050000000a000000
+    m_generateRecipe: 0
+  - m_name: SweetBun
+    m_type: 16
+    m_sprite: {fileID: 649210795468277922, guid: 6ffd27540f3ce4f7f8ef14a6835659d9, type: 3}
+    m_ingredients: 01000000040000000700000002000000
     m_generateRecipe: 1
