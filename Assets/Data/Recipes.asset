@@ -27,7 +27,7 @@ MonoBehaviour:
     m_type: 2
     m_sprite: {fileID: 649210795468277922, guid: 6ffd27540f3ce4f7f8ef14a6835659d9, type: 3}
     m_ingredients: 66000000060000000400000001000000
-    m_generateRecipe: 1
+    m_generateRecipe: 0
   - m_name: SaltyBun
     m_type: 18
     m_sprite: {fileID: 907229631269249807, guid: e002c784d686442aea80fbd3b77a0b8d, type: 3}
