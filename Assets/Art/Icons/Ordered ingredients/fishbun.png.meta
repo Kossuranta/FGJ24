@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 783e2e524f5734485bcc0ecc8ae63a1c
+guid: 95c4696d144ee634480705f3cbd5ee4b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8566613848887034956
-    second: ambulance-anim_0
-  - first:
-      213: -6427413664054703160
-    second: ambulance-anim_1
+      213: -3712629467473452049
+    second: fishbun_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ambulance-anim_0
+      name: fishbun_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 690
-        height: 367
+        width: 400
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,29 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c448ade58e9b2e670800000000000000
-      internalID: 8566613848887034956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ambulance-anim_1
-      rect:
-        serializedVersion: 2
-        x: 834
-        y: 0
-        width: 691
-        height: 367
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8cb0781935d3dc6a0800000000000000
-      internalID: -6427413664054703160
+      spriteID: fe3e8907b271a7cc0800000000000000
+      internalID: -3712629467473452049
       vertices: []
       indices: 
       edges: []
@@ -154,9 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      ambulance-anim_0: 8566613848887034956
-      ambulance-anim_1: -6427413664054703160
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
