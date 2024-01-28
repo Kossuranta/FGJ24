@@ -52,7 +52,7 @@ MonoBehaviour:
   m_image: {fileID: 4851656962272421990}
   m_rect: {fileID: 7597087578419226603}
   m_order: 3
-  m_audio: {fileID: 0}
+  m_audio: {fileID: 8300000, guid: 3a65bb70ee320e84e93aff89bf47cc94, type: 3}
   m_happy: {fileID: 21300000, guid: 0af904e76dcb7e647a275727b83b492d, type: 3}
   m_sad: {fileID: 21300000, guid: 889897ac2f468dc4f8b750af38530dd0, type: 3}
   m_dialog:
@@ -62,6 +62,8 @@ MonoBehaviour:
   m_responseHappy: Hmph, finally.
   m_responseSad: This is not what I asked for! No tip for you.
   m_showNoButton: 1
+  m_moveDuration: 1
+  m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:
   m_ObjectHideFlags: 0

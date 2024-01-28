@@ -52,7 +52,7 @@ MonoBehaviour:
   m_image: {fileID: 4851656962272421990}
   m_rect: {fileID: 7597087578419226603}
   m_order: 0
-  m_audio: {fileID: 0}
+  m_audio: {fileID: 8300000, guid: d06e531f6795d004ea2d07b747a3b80b, type: 3}
   m_happy: {fileID: 21300000, guid: 9c1011b676150c04aa61d59442d2de16, type: 3}
   m_sad: {fileID: 21300000, guid: 9c1011b676150c04aa61d59442d2de16, type: 3}
   m_dialog:
@@ -65,6 +65,8 @@ MonoBehaviour:
     such a good sport here's my number. Call me if you require anything... unsavory.
   m_responseSad: 
   m_showNoButton: 0
+  m_moveDuration: 1
+  m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:
   m_ObjectHideFlags: 0

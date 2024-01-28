@@ -52,6 +52,7 @@ MonoBehaviour:
   m_image: {fileID: 4851656962272421990}
   m_rect: {fileID: 7597087578419226603}
   m_order: 0
+  m_audio: {fileID: 8300000, guid: 7ec55a583e246da45b809b936fcb88b3, type: 3}
   m_happy: {fileID: 21300000, guid: 2ace4b4703572ef4f892c9765587280b, type: 3}
   m_sad: {fileID: 21300000, guid: 2ace4b4703572ef4f892c9765587280b, type: 3}
   m_dialog:
@@ -59,6 +60,8 @@ MonoBehaviour:
   m_responseHappy: 
   m_responseSad: 
   m_showNoButton: 0
+  m_moveDuration: 1
+  m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:
   m_ObjectHideFlags: 0
