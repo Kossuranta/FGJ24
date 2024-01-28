@@ -58,8 +58,8 @@ MonoBehaviour:
   m_dialog:
   - Peace and love mate. How are you on this lovely and totally rad day walking on
     mother Gaia?
-  - ' Coooooooool, coooooooool. Oh I almost forgot, can I have some money? If you
-    say no I totally get it mate. No hards feelings you know.'
+  - Coooooooool, coooooooool. Oh I almost forgot, can I have some money? If you say
+    no I totally get it mate. No hards feelings you know.
   m_responseHappy: Cooooooooool mate coooooooooool. Your alright you know. Here's
     my number, if you ever need some of that goooooood stuff. Peace!
   m_responseSad: 
