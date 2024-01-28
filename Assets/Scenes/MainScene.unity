@@ -303,6 +303,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 259772954726062186, guid: 818e245ba6f8fe74d8f9678ac5d24531, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2037486268537610307, guid: 818e245ba6f8fe74d8f9678ac5d24531, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 384
+      objectReference: {fileID: 0}
     - target: {fileID: 2987526618249167882, guid: 818e245ba6f8fe74d8f9678ac5d24531, type: 3}
       propertyPath: m_mainMenu
       value: 
@@ -331,6 +339,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 3018072761791982748}
+    - target: {fileID: 5410173427287808156, guid: 818e245ba6f8fe74d8f9678ac5d24531, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 620
+      objectReference: {fileID: 0}
     - target: {fileID: 5801579380837953083, guid: 818e245ba6f8fe74d8f9678ac5d24531, type: 3}
       propertyPath: m_speed
       value: 2
