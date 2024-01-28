@@ -56,11 +56,13 @@ MonoBehaviour:
   m_happy: {fileID: 8897664497650290217, guid: 4fae68405c6784bd097b5dae153fa720, type: 3}
   m_sad: {fileID: 8897664497650290217, guid: 4fae68405c6784bd097b5dae153fa720, type: 3}
   m_dialog:
-  - Wood. Bun. Wood. Bun. Wood. Bun. Wood. Bun. Wood. Bun. Wood. Bun.
+  - Wood. Bun. Choco. Bun. Wood. Bun. Choco. Bun. Wood. Bun. Choko. Bun.
   m_responseHappy: Good. Bun. Good. Bun. Good. Bun. Good. Bun. Good. Bun. Good. Bun.
   m_responseSad: Boo. Bun. Boo. Bun. Boo. Bun. Boo. Bun. Boo. Bun. Boo. Bun
   m_showNoButton: 0
   m_moveDuration: 1
+  m_playAmbulanceInBackground: 0
+  m_isSatan: 0
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:

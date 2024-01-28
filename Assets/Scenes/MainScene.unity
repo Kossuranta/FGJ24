@@ -307,6 +307,10 @@ PrefabInstance:
       propertyPath: m_mainMenu
       value: 
       objectReference: {fileID: 1894493706}
+    - target: {fileID: 3938742140311040110, guid: 818e245ba6f8fe74d8f9678ac5d24531, type: 3}
+      propertyPath: m_recipeOffset
+      value: 35
+      objectReference: {fileID: 0}
     - target: {fileID: 4022837453797752821, guid: 818e245ba6f8fe74d8f9678ac5d24531, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1

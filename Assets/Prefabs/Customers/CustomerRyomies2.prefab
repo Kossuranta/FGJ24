@@ -60,11 +60,17 @@ MonoBehaviour:
     there when I first ascended so it is only fitting you are here when I reach my
     zenith.
   - Once I was young and foolish, and let my hatred for dog burn red hot. Now I see
-    the truth. Revenge is a dish best served cold. Give me the coldest of dogs.
-  m_responseHappy: May your catnip patch be ever plentiful
-  m_responseSad: So you have chosen... Death
+    the truth. Revenge is a dish best served cold. Give me the coldest of dogs. This
+    be a dog with the strangest of meats.
+  m_responseHappy: May your catnip patch be ever plentiful. Oh you don't partake?
+    Well then here's some money so you can stop working in this dreadful place.
+  m_responseSad: So you have chosen... Death. Meet me in the field when Dogs and
+    Cats settle it once and for all. Take this money. You need to train to be a worthwhile
+    foe and thus can't afford to waste a way working in this dreadful place
   m_showNoButton: 0
   m_moveDuration: 2
+  m_playAmbulanceInBackground: 0
+  m_isSatan: 0
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:
