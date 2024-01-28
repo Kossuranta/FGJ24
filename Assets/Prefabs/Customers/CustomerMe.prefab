@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7597087578419226603}
   - component: {fileID: -3085467415739297304}
   m_Layer: 5
-  m_Name: CustomerBossDay01
+  m_Name: CustomerMe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ RectTransform:
   m_GameObject: {fileID: 1249833221762527496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7912965111075227446}
@@ -51,24 +51,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_image: {fileID: 4851656962272421990}
   m_rect: {fileID: 7597087578419226603}
-  m_order: 0
-  m_audio: {fileID: 8300000, guid: 32ac1904cfc937a43a4aca8801f0a619, type: 3}
-  m_happy: {fileID: 21300000, guid: 2ace4b4703572ef4f892c9765587280b, type: 3}
-  m_sad: {fileID: 21300000, guid: 2ace4b4703572ef4f892c9765587280b, type: 3}
+  m_order: 16
+  m_audio: {fileID: 8300000, guid: 142faf96c6215f84fbd1182242f44b3c, type: 3}
+  m_happy: {fileID: -2815192832593184278, guid: f7ec39bf816324c76b7a1669b3140426, type: 3}
+  m_sad: {fileID: -2815192832593184278, guid: f7ec39bf816324c76b7a1669b3140426, type: 3}
   m_dialog:
-  - Aight, listen up, greenhorn. I will only say this once. We are known as the single
-    greatest bakery in the whole gosh darn city, so...
-  - You WILL uphold that reputation, or I swear to God and Devil both you will never
-    get another job in this city ever again.
-  - Now I hear you ask, "How have we achieved this impeccable reputation"? Simple!
-    We. Never. Say. NO!
-  - Do you understand? No matter what comes through that door, you will smile, nod,
-    and deliver whatever their heart desires! Do you understand?!
-  - Now get to work!!
-  m_responseHappy: 
-  m_responseSad: 
+  - (Okay, here we go. First day at a new job. I hope things go well.)
+  - (Bah, what am I saying? Of course they will! I mean how hard can baking a few
+    buns really be?)
+  - (I better try to make something out of these recipies to test my skills!))
+  m_responseHappy: (Quite good!)
+  m_responseSad: (Surprisingly okay...)
   m_showNoButton: 0
-  m_moveDuration: 1
+  m_moveDuration: 0.2
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:
