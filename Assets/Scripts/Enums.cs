@@ -53,9 +53,12 @@ public enum RecipeType
     BirthdayCakeDay5 = 11,
     DevilBun = 12,
     ColdDog = 13,
-    
+}
 
-
-
-
+public enum CallTarget
+{
+    GeneralStore = 1,
+    ConstructionGuy = 2,
+    ParkChemist = 3,
+    Satan = 666,
 }

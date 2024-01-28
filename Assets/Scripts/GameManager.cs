@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public DeskManager m_deskManager;
     public CustomerManager m_customerManager;
     public DialogBox m_dialogBox;
+    public PhoneFunctions m_phone;
 
     public Recipes m_recipes;
     public IngredientSprites m_ingredientSprites;
@@ -61,6 +62,7 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         m_mainMenu.gameObject.SetActive(false);
+        ClosePhone();
         StartDay(0);
     }
 
@@ -197,5 +199,15 @@ public class GameManager : MonoBehaviour
     public void StopCustomerAudio()
     {
         m_customerAudio.Stop();
+    }
+
+    public void OpenPhone()
+    {
+        m_phone.gameObject.SetActive(true);
+    }
+
+    public void ClosePhone()
+    {
+        m_phone.gameObject.SetActive(false);
     }
 }
