@@ -803,7 +803,7 @@ MonoBehaviour:
   m_canvas: {fileID: 0}
   m_recipePrefab: {fileID: 4815851053618943891, guid: 0c530dc2b9eabab45a911f859c0f030e, type: 3}
   m_recipeSpawnPos: {x: 100, y: 388}
-  m_recipeOffset: 5
+  m_recipeOffset: 15
 --- !u!1 &4089465382922475164
 GameObject:
   m_ObjectHideFlags: 0

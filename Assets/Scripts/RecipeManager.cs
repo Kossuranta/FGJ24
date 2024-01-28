@@ -21,16 +21,21 @@ public class RecipeManager : MonoBehaviour
     {
         RecipeData[] recipes = GameManager.Instance.m_recipes.m_recipes;
         Helper.Shuffle(recipes);
+        int recipeIndex = 0;
         for (int i = 0; i < recipes.Length; i++)
         {
+            if (!recipes[i].m_generateRecipe)
+                continue;
+            
             Recipe r = Instantiate(m_recipePrefab, transform);
             m_recipes.Add(r);
             r.Initialize(this, m_canvas, recipes[i]);
             Vector2 spawnPos = m_recipeSpawnPos;
-            float offset = m_recipeOffset * i;
+            float offset = m_recipeOffset * recipeIndex;
             spawnPos.x += offset;
             spawnPos.y -= offset;
             SetRecipePosition(r.m_rect, spawnPos);
+            recipeIndex++;
         }
     }
 
