@@ -23,6 +23,14 @@ public class PhoneFunctions : MonoBehaviour
             screen.m_ingredientButtonParent.SetActive(target == screen.m_callTarget);
     }
 
+    public void Order(int _ingredient)
+    {
+        IngredientType ingredient = (IngredientType) _ingredient;
+        GameManager.Instance.AddIngredient(ingredient);
+        ShowContacts();
+        Close();
+    }
+
     public void Close()
     {
         if (m_contactsParent.activeSelf)

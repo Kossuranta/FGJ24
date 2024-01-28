@@ -10,7 +10,8 @@ public class GameManager : MonoBehaviour
     public DeskManager m_deskManager;
     public CustomerManager m_customerManager;
     public DialogBox m_dialogBox;
-    public PhoneFunctions m_phone;
+    public Phone m_phone;
+    public PhoneFunctions m_phoneScreen;
 
     public Recipes m_recipes;
     public IngredientSprites m_ingredientSprites;
@@ -53,16 +54,19 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        m_mainMenu.gameObject.SetActive(true);
         m_deskManager.Initialize();
         m_customerManager.Initialize();
         
+        m_phone.gameObject.SetActive(false);
         m_dialogBox.gameObject.SetActive(false);
+        
+        m_mainMenu.gameObject.SetActive(true);
     }
 
     public void StartGame()
     {
         m_mainMenu.gameObject.SetActive(false);
+        
         ClosePhone();
         StartDay(0);
     }
@@ -109,6 +113,8 @@ public class GameManager : MonoBehaviour
 
     public void ShowBossDialog(Customer _boss)
     {
+        if (m_customerManager.m_bossIndex == 2)
+            m_phone.gameObject.SetActive(true);
         m_dialogBox.ShowOverrideDialog(_boss.m_dialog);
     }
 
@@ -204,11 +210,14 @@ public class GameManager : MonoBehaviour
 
     public void OpenPhone()
     {
-        m_phone.gameObject.SetActive(true);
+        if (m_currentOrder == RecipeType.None)
+            return;
+        
+        m_phoneScreen.gameObject.SetActive(true);
     }
 
     public void ClosePhone()
     {
-        m_phone.gameObject.SetActive(false);
+        m_phoneScreen.gameObject.SetActive(false);
     }
 }

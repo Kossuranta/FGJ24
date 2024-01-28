@@ -726,7 +726,8 @@ MonoBehaviour:
   m_deskManager: {fileID: 3514308944614870812}
   m_customerManager: {fileID: 7082736799094882023}
   m_dialogBox: {fileID: 2479897054831194388}
-  m_phone: {fileID: 994141905491177360}
+  m_phone: {fileID: 2194026706910043632}
+  m_phoneScreen: {fileID: 994141905491177360}
   m_recipes: {fileID: 11400000, guid: d999ee921cbb7b34986e65f819056e5d, type: 2}
   m_ingredientSprites: {fileID: 11400000, guid: a467a3aed0257ac4287924b0d0a21c44, type: 2}
   m_customerAudio: {fileID: 676517685388654546}
@@ -971,6 +972,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec5f3ab205cd0c246a7f3599573e5abf, type: 3}
+--- !u!114 &2194026706910043632 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2246929220156260320, guid: ec5f3ab205cd0c246a7f3599573e5abf, type: 3}
+  m_PrefabInstance: {fileID: 97968216097956368}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f3f6bf2225deb3479d8264fffafe25c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &3514308944614870812 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3573985426944519436, guid: ec5f3ab205cd0c246a7f3599573e5abf, type: 3}
