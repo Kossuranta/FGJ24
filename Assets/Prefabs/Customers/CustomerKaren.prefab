@@ -64,6 +64,8 @@ MonoBehaviour:
   m_responseSad: This is not what I asked for! I need to talk to your manager!
   m_showNoButton: 1
   m_moveDuration: 1
+  m_playAmbulanceInBackground: 0
+  m_isSatan: 0
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:
@@ -130,9 +132,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3096851731620070214, guid: 0af904e76dcb7e647a275727b83b492d, type: 3}
+  m_Sprite: {fileID: -3343211923110910386, guid: 1544807c8f15f4591a6ef88685e3163a, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
