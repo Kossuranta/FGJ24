@@ -29,6 +29,7 @@ public class PhoneFunctions : MonoBehaviour
         GameManager.Instance.AddIngredient(ingredient);
         ShowContacts();
         Close();
+        GameManager.Instance.m_vehicleManager.SpawnTruck();
     }
 
     public void Close()

@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public MainMenu m_mainMenu;
     public DeskManager m_deskManager;
     public CustomerManager m_customerManager;
+    public VehicleManager m_vehicleManager;
     public DialogBox m_dialogBox;
     public Phone m_phone;
     public PhoneFunctions m_phoneScreen;
@@ -18,8 +19,6 @@ public class GameManager : MonoBehaviour
     public IngredientSprites m_ingredientSprites;
 
     public AudioSource m_customerAudio;
-    public AudioSource m_backgroundAudio;
-    public AudioSource m_truckAudio;
     public AudioSource m_effectAudio;
 
     [NonSerialized]
@@ -71,6 +70,14 @@ public class GameManager : MonoBehaviour
         
         ClosePhone();
         StartDay(0);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyUp(KeyCode.A))
+            m_vehicleManager.SpawnAmbulance();
+        if (Input.GetKeyUp(KeyCode.T))
+            m_vehicleManager.SpawnTruck();
     }
 
     public void EndGame()
@@ -181,6 +188,8 @@ public class GameManager : MonoBehaviour
     public void CustomerLeft()
     {
         m_customerManager.NextCustomer();
+        if (m_customerManager.m_customerIndex == 4)
+            m_vehicleManager.SpawnAmbulance();
     }
 
     public void MixingCompleted()
