@@ -64,6 +64,7 @@ MonoBehaviour:
   m_showNoButton: 0
   m_moveDuration: 11
   m_playAmbulanceInBackground: 0
+  m_isSatan: 0
   m_customNoButton: {fileID: 3167259072040899317, guid: a23ddd0f46143544798aa35f2016bdf0, type: 3}
 --- !u!1 &1466773220233465482
 GameObject:
@@ -130,9 +131,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3096851731620070214, guid: 0af904e76dcb7e647a275727b83b492d, type: 3}
+  m_Sprite: {fileID: 8672136004210288427, guid: 9ac21806a69a64b4884a8416eeeba128, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
