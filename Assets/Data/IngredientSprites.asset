@@ -72,13 +72,16 @@ MonoBehaviour:
     m_sprite: {fileID: -3109915499703300317, guid: c2c341e6fbe1a4a0f8ad699fb30df7a0, type: 3}
   - m_name: Soul
     m_type: 401
-    m_sprite: {fileID: 2656595835160527804, guid: faff2a850408d416db250e89cd8d4e5c, type: 3}
-  - m_name: VirginBlood
-    m_type: 402
-    m_sprite: {fileID: -3569756055293657213, guid: ff1f8be11dda74d939690892ef1b3d1f, type: 3}
+    m_sprite: {fileID: 21300000, guid: 30bcaf3e3cd294b56a56ae5e67434a58, type: 3}
   - m_name: Eggs
     m_type: 3
     m_sprite: {fileID: -6636555868646126082, guid: 65698558e464e48009f1bbe2cb2c2c66, type: 3}
   - m_name: MysteryMeat
     m_type: 403
     m_sprite: {fileID: -4362496575731948918, guid: 99ec62285f49f4ef3adf7dddb6ee8f56, type: 3}
+  - m_name: Spine
+    m_type: 404
+    m_sprite: {fileID: -8308282141909669963, guid: 0a984da60daaa4c1490656220ad648b7, type: 3}
+  - m_name: VirginBlood
+    m_type: 402
+    m_sprite: {fileID: 21300000, guid: ff1f8be11dda74d939690892ef1b3d1f, type: 3}
