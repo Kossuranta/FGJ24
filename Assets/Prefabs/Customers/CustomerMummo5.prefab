@@ -59,14 +59,16 @@ MonoBehaviour:
   - Oh hello dear. I'm not feeling that well today, but I couldn't stay home because
     it's my birthday! Happy birthday me! Could I have the greatest birthday cake?
   - Just remember the words I always tell you "Baking powder ruins a good cake, milk
-    shouldn't even enter the room, sugar just pisses on everything and when you feel
-    down just throw the flour out of the window!
+    shouldn't even enter the room, sugar just pisses on everything and flours might
+    be white but they dont take the pain away!
   m_responseHappy: You have outdone yourself dear! This cake brings back memories
     of my seventh husband.
   m_responseSad: Don't worry dear, if you at first don't succeed then try and try
     again!
   m_showNoButton: 0
   m_moveDuration: 10.8
+  m_playAmbulanceInBackground: 0
+  m_isSatan: 0
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:
