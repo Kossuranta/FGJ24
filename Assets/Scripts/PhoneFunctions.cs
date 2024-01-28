@@ -2,6 +2,14 @@ using UnityEngine;
 
 public class PhoneFunctions : MonoBehaviour
 {
+    private bool m_dialogWasOpen;
+    
+    private void OnEnable()
+    {
+        m_dialogWasOpen = GameManager.Instance.m_dialogBox.gameObject.activeSelf;
+        GameManager.Instance.m_dialogBox.gameObject.SetActive(false);
+    }
+
     public void Call(int _callTarget)
     {
         
@@ -10,5 +18,7 @@ public class PhoneFunctions : MonoBehaviour
     public void Close()
     {
         GameManager.Instance.ClosePhone();
+        if (m_dialogWasOpen)
+            GameManager.Instance.m_dialogBox.gameObject.SetActive(true);
     }
 }
