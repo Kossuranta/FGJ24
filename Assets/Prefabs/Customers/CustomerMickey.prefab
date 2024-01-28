@@ -53,8 +53,8 @@ MonoBehaviour:
   m_rect: {fileID: 7597087578419226603}
   m_order: 10
   m_audio: {fileID: 8300000, guid: da43caf142850ec44922f6ddf64aa060, type: 3}
-  m_happy: {fileID: 3754517016971052526, guid: 6b5d94e953961c0419dbd0a42714abf6, type: 3}
-  m_sad: {fileID: 3754517016971052526, guid: 6b5d94e953961c0419dbd0a42714abf6, type: 3}
+  m_happy: {fileID: -4132355139664505615, guid: 19997aad6299649fb8c1e506b8d6484c, type: 3}
+  m_sad: {fileID: -4132355139664505615, guid: 19997aad6299649fb8c1e506b8d6484c, type: 3}
   m_dialog:
   - What a lousy day innit? You know I come to this backwater of a city in this God
     forsaken country out of the goodness of my heart. And you know what I get in
