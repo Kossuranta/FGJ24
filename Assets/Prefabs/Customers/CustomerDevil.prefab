@@ -53,8 +53,8 @@ MonoBehaviour:
   m_rect: {fileID: 7597087578419226603}
   m_order: 0
   m_audio: {fileID: 8300000, guid: d06e531f6795d004ea2d07b747a3b80b, type: 3}
-  m_happy: {fileID: 21300000, guid: 9c1011b676150c04aa61d59442d2de16, type: 3}
-  m_sad: {fileID: 21300000, guid: 9c1011b676150c04aa61d59442d2de16, type: 3}
+  m_happy: {fileID: 2275355132564518992, guid: beb0c1f75e5d1412baa3a5db2e118a12, type: 3}
+  m_sad: {fileID: 2275355132564518992, guid: beb0c1f75e5d1412baa3a5db2e118a12, type: 3}
   m_dialog:
   - Oh hello, didn't see you there. Why you look like a good person. A good person
     who wouldn't leave poor fellow traveler to die. You see I am starving and If
