@@ -9,6 +9,9 @@ public class DialogBox : MonoBehaviour
     public Button m_buttonNo;
     public Button m_nextDialog;
 
+    public Image m_speechBubble;
+    public Image m_thoughtBubble;
+
     private int m_dialogIndex;
     private string[] m_dialog;
     private int m_overrideIndex;
@@ -69,7 +72,7 @@ public class DialogBox : MonoBehaviour
             
             string line = m_dialog[m_dialogIndex];
             m_dialogIndex++;
-            m_dialogTextMesh.text = line;
+            SetDialogText(line);
         
             m_buttonYes.gameObject.SetActive(m_dialogIndex == m_dialog.Length);
             if (!GameManager.Instance.m_currentCustomer.m_showNoButton || m_bossSaidNo)
@@ -97,7 +100,7 @@ public class DialogBox : MonoBehaviour
             
             string line = m_overrideDialog[m_overrideIndex];
             m_overrideIndex++;
-            m_dialogTextMesh.text = line;
+            SetDialogText(line);
         
             m_buttonYes.gameObject.SetActive(false);
             m_buttonNo.gameObject.SetActive(false);
@@ -107,7 +110,16 @@ public class DialogBox : MonoBehaviour
 
     public void CustomerResponse(string _response)
     {
-        m_dialogTextMesh.text = _response;
+        SetDialogText(_response);
         m_nextDialog.gameObject.SetActive(true);
+    }
+
+    public void SetDialogText(string _text)
+    {
+        m_dialogTextMesh.text = _text;
+
+        bool isPlayer = !string.IsNullOrEmpty(_text) && _text[0] == '(';
+        m_speechBubble.enabled = !isPlayer;
+        m_thoughtBubble.enabled = isPlayer;
     }
 }
