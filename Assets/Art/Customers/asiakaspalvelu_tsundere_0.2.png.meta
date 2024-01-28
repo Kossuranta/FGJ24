@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      asiakaspalvelu_tsundere_0.2_0: 2746351807020714801
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

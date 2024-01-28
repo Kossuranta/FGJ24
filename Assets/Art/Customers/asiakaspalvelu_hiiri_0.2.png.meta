@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      asiakaspalvelu_hiiri_0.2_0: 3754517016971052526
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

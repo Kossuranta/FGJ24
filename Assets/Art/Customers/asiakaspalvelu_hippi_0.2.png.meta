@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      asiakaspalvelu_hippi_0.2_0: -5306024200281531429
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
