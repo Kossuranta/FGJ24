@@ -80,6 +80,7 @@ public class CustomerManager : MonoBehaviour
     
     public void HideBoss()
     {
+        GameManager.Instance.StopCustomerAudio();
         StartCoroutine(BossExit());
     }
 
