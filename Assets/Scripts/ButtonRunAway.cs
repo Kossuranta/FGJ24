@@ -29,7 +29,8 @@ public class ButtonRunAway : MonoBehaviour, IPointerEnterHandler
         }
         
         m_time = 0;
-        GameManager.Instance.PlayEffect(m_audioClip);
+        if (m_audioClip != null)
+            GameManager.Instance.PlayEffect(m_audioClip);
         if (m_sprites.Length > 0)
             m_image.sprite = m_sprites[Random.Range(0, m_sprites.Length)];
     }
