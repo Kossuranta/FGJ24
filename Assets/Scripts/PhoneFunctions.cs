@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PhoneFunctions : MonoBehaviour
 {
+    public DialogBox m_dialogBox;
+    
     private bool m_dialogWasOpen;
     
     private void OnEnable()
