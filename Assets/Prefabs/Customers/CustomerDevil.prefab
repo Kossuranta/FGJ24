@@ -65,7 +65,7 @@ MonoBehaviour:
     such a good sport here's my number. Call me if you require anything... unsavory.
   m_responseSad: 
   m_showNoButton: 0
-  m_moveDuration: 1
+  m_moveDuration: 4
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:

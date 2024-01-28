@@ -66,7 +66,7 @@ MonoBehaviour:
   m_responseSad: Don't worry dear, if you at first don't succeed then try and try
     again!
   m_showNoButton: 0
-  m_moveDuration: 1
+  m_moveDuration: 10.8
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:

@@ -58,14 +58,14 @@ MonoBehaviour:
   m_dialog:
   - What a lousy day innit? You know I come to this backwater of a city in this God
     forsaken country out of the goodness of my heart. And you know what I get in
-    return? Public humiliation that's what! Everywhere I go I am always the second
-    choice.
+    return?
+  - Public humiliation that's what! Everywhere I go I am always the second choice.
   - That bloody Duck has taken this country by the throat and choked every other
     character out of it. I can't take it anymore. Give me something for my grief.
   m_responseHappy: Ohhhh that hit the spot.
   m_responseSad: You're one of the hater's aren't you?
   m_showNoButton: 0
-  m_moveDuration: 1
+  m_moveDuration: 4
   m_customNoButton: {fileID: 0}
 --- !u!1 &1466773220233465482
 GameObject:
