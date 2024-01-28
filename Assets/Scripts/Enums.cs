@@ -53,6 +53,12 @@ public enum RecipeType
     BirthdayCakeDay5 = 11,
     DevilBun = 12,
     ColdDog = 13,
+    SadMealPlayer = 14,
+    Bread = 15,
+    SweetBun = 16,
+    DallasBun = 17,
+    SaltyBun = 18,
+
 }
 
 public enum CallTarget
