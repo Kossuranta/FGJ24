@@ -17,6 +17,7 @@ public class Customer : MonoBehaviour
     public bool m_showNoButton;
     public float m_moveDuration = 1f;
     public bool m_playAmbulanceInBackground;
+    public bool m_isSatan;
 
     public GameObject m_customNoButton;
 

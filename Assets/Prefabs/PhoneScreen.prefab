@@ -719,6 +719,7 @@ MonoBehaviour:
     m_ingredientButtonParent: {fileID: 1855319478850482968}
   - m_callTarget: 666
     m_ingredientButtonParent: {fileID: 1607357683603324964}
+  m_satanContact: {fileID: 1720818872573521399}
 --- !u!1 &1405801873743195987
 GameObject:
   m_ObjectHideFlags: 0

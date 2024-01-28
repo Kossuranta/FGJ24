@@ -38,6 +38,9 @@ public class GameManager : MonoBehaviour
     public RecipeType m_currentOrder;
 
     [NonSerialized]
+    public bool m_satanHasVisited;
+
+    [NonSerialized]
     public int m_day = 0;
 
     public const int SCREEN_HEIGHT = 1080;
@@ -84,6 +87,8 @@ public class GameManager : MonoBehaviour
             m_vehicleManager.SpawnAmbulance();
         if (Input.GetKeyUp(KeyCode.T))
             m_vehicleManager.SpawnTruck();
+        if (Input.GetKeyUp(KeyCode.S))
+            m_satanHasVisited = true;
     }
 
     public void EndGame()

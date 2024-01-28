@@ -67,6 +67,7 @@ MonoBehaviour:
   m_showNoButton: 0
   m_moveDuration: 4
   m_playAmbulanceInBackground: 0
+  m_isSatan: 1
   m_customNoButton: {fileID: 3167259072040899317, guid: 1f651bca37dda194f9b4ee361c9526b8, type: 3}
 --- !u!1 &1466773220233465482
 GameObject:

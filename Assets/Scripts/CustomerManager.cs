@@ -48,6 +48,9 @@ public class CustomerManager : MonoBehaviour
         
         StartCoroutine(CustomerEnter());
         
+        if (m_customer.m_isSatan)
+            GameManager.Instance.m_satanHasVisited = true;
+        
         if (m_customer.m_order != RecipeType.None && !m_customer.transform.name.Contains("Me"))
             GameManager.Instance.PlayEffect(m_customerEnter);
         
