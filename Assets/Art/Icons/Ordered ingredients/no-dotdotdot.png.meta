@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 95c4696d144ee634480705f3cbd5ee4b
+guid: 44a5dd643942240c2864cf3580faacee
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3712629467473452049
-    second: fishbun_0
+      213: -5050617795994037114
+    second: no-dotdotdot_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fishbun_0
+      name: no-dotdotdot_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 400
-        height: 520
+        width: 190
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,8 +114,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe3e8907b271a7cc0800000000000000
-      internalID: -3712629467473452049
+      spriteID: 6845285bfd998e9b0800000000000000
+      internalID: -5050617795994037114
       vertices: []
       indices: 
       edges: []
@@ -130,8 +130,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      fishbun_0: -3712629467473452049
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
