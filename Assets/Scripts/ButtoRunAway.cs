@@ -8,15 +8,22 @@ public class ButtonRunAway : MonoBehaviour, IPointerEnterHandler
 
     private Vector2 m_targetPosition;
     private Vector2 m_startPosition;
-    private float m_time;
+    private float m_time = 2f;
 
     public void OnPointerEnter(PointerEventData _eventData)
     {
-        int lowerBoundX = Random.Range(-480, 480);
-        int upperBoundY = Random.Range(-280, 280);
-
-        m_targetPosition = new Vector2(lowerBoundX, upperBoundY);
         m_startPosition = m_gameObjectToMove.anchoredPosition;
+        for (int i = 0; i < 10; i++)
+        {
+            int lowerBoundX = Random.Range(-480, 480);
+            int upperBoundY = Random.Range(-280, 280);
+            m_targetPosition = new Vector2(lowerBoundX, upperBoundY);
+
+            float dist = Vector2.Distance(m_targetPosition, m_startPosition);
+            if (dist > 200)
+                break;
+        }
+        
         m_time = 0;
     }
 

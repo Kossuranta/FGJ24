@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -17,6 +18,8 @@ public class DialogBox : MonoBehaviour
     private int m_overrideIndex;
     private string[] m_overrideDialog;
     private bool m_bossSaidNo;
+
+    private GameObject m_customNoButton;
 
     public void ShowDialog(string[] _dialog)
     {
@@ -42,6 +45,12 @@ public class DialogBox : MonoBehaviour
 
     public void ButtonYes()
     {
+        if (m_customNoButton != null)
+        {
+            Destroy(m_customNoButton);
+            m_customNoButton = null;
+        }
+        
         m_buttonYes.gameObject.SetActive(false);
         m_buttonNo.gameObject.SetActive(false);
         m_nextDialog.gameObject.SetActive(false);
@@ -75,8 +84,19 @@ public class DialogBox : MonoBehaviour
             SetDialogText(line);
         
             m_buttonYes.gameObject.SetActive(m_dialogIndex == m_dialog.Length);
-            if (!GameManager.Instance.m_currentCustomer.m_showNoButton || m_bossSaidNo)
+            Customer customer = GameManager.Instance.m_currentCustomer;
+            if (!customer.m_showNoButton || m_bossSaidNo)
+            {
                 m_buttonNo.gameObject.SetActive(false);
+                if (m_buttonYes.gameObject.activeSelf && customer.m_customNoButton != null)
+                {
+                    m_customNoButton = Instantiate(customer.m_customNoButton, transform);
+                    RectTransform rect = m_customNoButton.GetComponent<RectTransform>();
+                    RectTransform noRect = m_buttonNo.gameObject.GetComponent<RectTransform>();
+                    rect.anchoredPosition = noRect.anchoredPosition;
+                    rect.sizeDelta = noRect.sizeDelta;
+                }
+            }
             else
                 m_buttonNo.gameObject.SetActive(m_dialogIndex == m_dialog.Length);
             m_nextDialog.gameObject.SetActive(m_dialogIndex != m_dialog.Length);

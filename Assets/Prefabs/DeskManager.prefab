@@ -1786,7 +1786,7 @@ MonoBehaviour:
   - {fileID: 8822212838239749983}
   m_fadeInDuration: 0.3
   m_fadeOutDuration: 0.15
-  m_mixerDuration: 2
+  m_mixerDuration: 2.2
 --- !u!1001 &857439617779466652
 PrefabInstance:
   m_ObjectHideFlags: 0
