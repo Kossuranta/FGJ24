@@ -53,8 +53,8 @@ MonoBehaviour:
   m_rect: {fileID: 7597087578419226603}
   m_order: 13
   m_audio: {fileID: 8300000, guid: 142faf96c6215f84fbd1182242f44b3c, type: 3}
-  m_happy: {fileID: -2815192832593184278, guid: f7ec39bf816324c76b7a1669b3140426, type: 3}
-  m_sad: {fileID: -2815192832593184278, guid: f7ec39bf816324c76b7a1669b3140426, type: 3}
+  m_happy: {fileID: -7451130290933850774, guid: 221a8af10d80c4167a2bd2ba3ae17e65, type: 3}
+  m_sad: {fileID: -7451130290933850774, guid: 221a8af10d80c4167a2bd2ba3ae17e65, type: 3}
   m_dialog:
   - Be at peace my child. It is I the humble priest of CatsArePoggers-Cult. You were
     there when I first ascended so it is only fitting you are here when I reach my

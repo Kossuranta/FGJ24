@@ -53,7 +53,7 @@ MonoBehaviour:
   m_rect: {fileID: 7597087578419226603}
   m_order: 3
   m_audio: {fileID: 8300000, guid: 3a65bb70ee320e84e93aff89bf47cc94, type: 3}
-  m_happy: {fileID: -3343211923110910386, guid: 1544807c8f15f4591a6ef88685e3163a, type: 3}
+  m_happy: {fileID: 8982498018621228520, guid: e479d7fe50e8a48ec95e0d9d4bcd45c7, type: 3}
   m_sad: {fileID: -3343211923110910386, guid: 1544807c8f15f4591a6ef88685e3163a, type: 3}
   m_dialog:
   - Karelian pie. On the go. now. Hurry up. I don't have all day. What's taking so

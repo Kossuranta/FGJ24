@@ -53,7 +53,7 @@ MonoBehaviour:
   m_rect: {fileID: 7597087578419226603}
   m_order: 12
   m_audio: {fileID: 8300000, guid: 8a04cc2b8814a384d952bf22515c68f7, type: 3}
-  m_happy: {fileID: 2746351807020714801, guid: b0d0ea4b3acc91a42a96f511c329e144, type: 3}
+  m_happy: {fileID: -4123159300693854183, guid: 6690833d785794d5295dc6782c0915a8, type: 3}
   m_sad: {fileID: 2746351807020714801, guid: b0d0ea4b3acc91a42a96f511c329e144, type: 3}
   m_dialog:
   - 'Hiiii! This shop is, like sooo cute! My BFF, Satan, like totally recommended

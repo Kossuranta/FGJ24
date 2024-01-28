@@ -53,8 +53,8 @@ MonoBehaviour:
   m_rect: {fileID: 7597087578419226603}
   m_order: 4
   m_audio: {fileID: 8300000, guid: 17c2f2f41d3b8234396ebe8db93a6e43, type: 3}
-  m_happy: {fileID: 21300000, guid: 0af904e76dcb7e647a275727b83b492d, type: 3}
-  m_sad: {fileID: 21300000, guid: 889897ac2f468dc4f8b750af38530dd0, type: 3}
+  m_happy: {fileID: -2186759597280114940, guid: 313eecde88d794b37b6299d7e32a917a, type: 3}
+  m_sad: {fileID: 8672136004210288427, guid: 9ac21806a69a64b4884a8416eeeba128, type: 3}
   m_dialog:
   - 'Oh hello dear! I was walking by and remembered: it is my birthday! Happy birthday
     me! Could I have the greatest birthday cake?'

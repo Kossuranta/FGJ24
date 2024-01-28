@@ -54,7 +54,7 @@ MonoBehaviour:
   m_order: 17
   m_audio: {fileID: 8300000, guid: 52a64dcd0ad48fc46b628bda1e3e762c, type: 3}
   m_happy: {fileID: -6930931822620003021, guid: 595c29be5f7354e5dbe1389d9f823498, type: 3}
-  m_sad: {fileID: -6930931822620003021, guid: 595c29be5f7354e5dbe1389d9f823498, type: 3}
+  m_sad: {fileID: 3216415733700692014, guid: 5a47c92c59447409c8cfab5478727e36, type: 3}
   m_dialog:
   - Oh hiii, haven't seen you before. Shame, the last baker, knew all of my many
     dietary limitations. Well, I just have to train you.
